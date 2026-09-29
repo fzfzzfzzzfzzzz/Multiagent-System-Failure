@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "recovered_at": 1790628925.6435728,
+  "reason": "all model trials completed; original analysis stopped only because optional matplotlib was unavailable",
+  "original_controller_state": "failed",
+  "original_gpu_released": true,
+  "unit": "teamlearn-coreanalysis8b-260929-v1",
+  "unit_exit_code": 0,
+  "analysis_patch": "optional visualization omission; numerical estimands and tests unchanged",
+  "analysis_sha256_before": "32c050919dd640fb93067d0ad9f74d41f856dc56c3a38b42b8d433ceab2957a1",
+  "analysis_sha256_after": "54b5cc91012958996daa0f9293c0965611f48ca56c77d3c13d6186065b6e6702",
+  "rows": {
+    "E1": 810,
+    "E3": 1215
+  },
+  "planned_rows": {
+    "E1": 810,
+    "E3": 1215
+  },
+  "gpu_before": [
+    {
+      "gpu": 4,
+      "used_mb": 333,
+      "util": 0,
+      "pids": []
+    },
+    {
+      "gpu": 5,
+      "used_mb": 333,
+      "util": 0,
+      "pids": []
+    }
+  ],
+  "gpu_after": [
+    {
+      "gpu": 4,
+      "used_mb": 333,
+      "util": 0,
+      "pids": []
+    },
+    {
+      "gpu": 5,
+      "used_mb": 333,
+      "util": 0,
+      "pids": []
+    }
+  ],
+  "stdout_tail": [],
+  "stderr_tail": []
+}

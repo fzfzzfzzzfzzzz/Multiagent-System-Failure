@@ -1,0 +1,12 @@
+data
+collect-dev
+pilot
+collect-train
+train-policy
+development
+freeze
+collect-test
+confirm
+heterogeneous
+sequential
+analyze

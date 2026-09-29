@@ -1,0 +1,16 @@
+experiment,method,kind,backend,n_runs,n_sources,n_clusters,first_success,final_success,recurrence,opportunities,abstention,unnecessary_wait,mean_total_tokens,mean_report_tokens,unknown_usage_calls
+E3,cycle,reversal,workflow,1,1,1,1.0,1.0,,0,0.0,0.0,45749.0,2032.0,0
+E3,cycle,same,workflow,1,1,1,0.0,0.0,1.0,1,0.0,0.0,45749.0,2032.0,0
+E3,cycle,transfer,workflow,1,1,1,0.0,0.0,1.0,1,0.0,0.0,45524.0,2032.0,0
+E3,flat,reversal,workflow,1,1,1,1.0,1.0,,0,0.0,0.0,32689.0,1244.0,0
+E3,flat,same,workflow,1,1,1,0.0,0.0,1.0,1,0.0,0.0,32689.0,1244.0,0
+E3,flat,transfer,workflow,1,1,1,0.0,0.0,1.0,1,0.0,0.0,32464.0,1244.0,0
+E3,matched,reversal,workflow,1,1,1,1.0,1.0,,0,0.0,0.0,45749.0,2032.0,0
+E3,matched,same,workflow,1,1,1,0.0,0.0,1.0,1,0.0,0.0,45749.0,2032.0,0
+E3,matched,transfer,workflow,1,1,1,0.0,0.0,1.0,1,0.0,0.0,45524.0,2032.0,0
+E3,random,reversal,workflow,1,1,1,1.0,1.0,,0,0.0,0.0,45749.0,2032.0,0
+E3,random,same,workflow,1,1,1,0.0,0.0,1.0,1,0.0,0.0,45749.0,2032.0,0
+E3,random,transfer,workflow,1,1,1,0.0,0.0,1.0,1,0.0,0.0,45524.0,2032.0,0
+E3,structured,reversal,workflow,1,1,1,1.0,1.0,,0,0.0,0.0,45709.0,2024.0,0
+E3,structured,same,workflow,1,1,1,0.0,0.0,1.0,1,0.0,0.0,45709.0,2024.0,0
+E3,structured,transfer,workflow,1,1,1,0.0,0.0,1.0,1,0.0,0.0,45484.0,2024.0,0

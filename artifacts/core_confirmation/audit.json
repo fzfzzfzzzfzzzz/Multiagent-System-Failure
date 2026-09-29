@@ -1,0 +1,120 @@
+{
+  "E1": {
+    "rows": 810,
+    "unique_run_ids": 810,
+    "duplicate_run_ids": 0,
+    "mock_rows": 0,
+    "splits": [
+      "test"
+    ],
+    "methods": [
+      "components_SOCDKPU",
+      "components_SP"
+    ],
+    "kinds": [
+      "reversal",
+      "same",
+      "transfer"
+    ],
+    "seeds": [
+      101,
+      211,
+      307
+    ],
+    "source_meta_ids": 45,
+    "rule_families": 12,
+    "paired_units": 405,
+    "incomplete_paired_units": 0,
+    "rows_with_no_model_calls": 0,
+    "models": [
+      "Qwen3-8B"
+    ],
+    "sha256": "9169de08f013885f0814eac189e117a24985be52d71a4f59ba4df52127b49fdb"
+  },
+  "E3": {
+    "rows": 1215,
+    "unique_run_ids": 1215,
+    "duplicate_run_ids": 0,
+    "mock_rows": 0,
+    "splits": [
+      "test"
+    ],
+    "methods": [
+      "cycle",
+      "matched",
+      "random"
+    ],
+    "kinds": [
+      "reversal",
+      "same",
+      "transfer"
+    ],
+    "seeds": [
+      101,
+      211,
+      307
+    ],
+    "source_meta_ids": 45,
+    "rule_families": 12,
+    "paired_units": 405,
+    "incomplete_paired_units": 0,
+    "rows_with_no_model_calls": 0,
+    "models": [
+      "Qwen3-8B"
+    ],
+    "sha256": "fda3156883d713e35746e87a468d1d07de1909260ac07fcdcc1cb7e2b85fa6cc"
+  },
+  "frozen": {
+    "dataset_hash": "e563293f1e28cb83f813d7f67f3ca664da1addebb958922b8939fd3a90fcdeaf",
+    "models_hash": "b2df2c2699c14a7a5d1bde0fb6a0cb089f18a6575436d64a4fe7cf088bb26446",
+    "code_hash": "fda44c99f511155652a661433fa7f7ad9a3e154dab910cade9e44fcf56d9360c",
+    "seeds": [
+      101,
+      211,
+      307
+    ],
+    "rounds": 2,
+    "turns": 3,
+    "primary": [
+      "H1",
+      "H4"
+    ]
+  },
+  "design_dataset_matches_freeze": true,
+  "test_gate": {
+    "counts": {
+      "F1": 12,
+      "F2": 11,
+      "F3": 12,
+      "F4": 10
+    },
+    "qualified": 45,
+    "rule_families": [
+      "funds",
+      "inspection",
+      "inventory",
+      "packing",
+      "portfolio",
+      "quality",
+      "risk",
+      "routing",
+      "sampling",
+      "signals",
+      "temperature",
+      "water"
+    ],
+    "n_rule_families": 12,
+    "minimum_qualified_per_mechanism": 4,
+    "minimum_rule_families": 10,
+    "passed": true
+  },
+  "completion": {
+    "complete": true,
+    "design_hash": "c2c74a2472241648f3000bf5422dfb16536feebefefe106d9db3addbad22ae7a",
+    "E1_rows": 810,
+    "E3_rows": 1215,
+    "interpretation_required": true
+  },
+  "passed": true,
+  "problems": []
+}

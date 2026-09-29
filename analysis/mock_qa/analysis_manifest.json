@@ -1,0 +1,7 @@
+{
+  "mock": true,
+  "rows": 15,
+  "cluster_definition": "aggregation-rule family across mechanisms, backends and seeds",
+  "cost_note": "construction plus actual API usage; report reads are included in execution, not double counted; source costs are separately in run records",
+  "caution": "small cluster intervals are descriptive; no automatic hypothesis acceptance"
+}

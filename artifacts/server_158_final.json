@@ -1,0 +1,10 @@
+{
+  "checked_at": 1790629365.8395863,
+  "host": "158",
+  "note": "all listed compute processes pre-existed and are not owned by this project; none were changed",
+  "probe": {
+    "exit_code": 0,
+    "stdout": "0, 22490, 93\n1, 22162, 94\n2, 22162, 93\n3, 22162, 92\n4, 22936, 0\n5, 22936, 0\n6, 22936, 0\n7, 22936, 0\nGPU-8afa78fa-2d44-fa23-f808-b73465b7df13, 1931820, /data/fangc/envs/sglang-qwen38-260915/bin/python, 322\nGPU-8afa78fa-2d44-fa23-f808-b73465b7df13, 1973779, sglang::scheduler_TP0, 22152\nGPU-7d94876b-0b6f-06d3-e5d0-53e2cf10b7ef, 1973780, sglang::scheduler_TP1, 22152\nGPU-2cb51f48-4f9b-674b-0afe-90d3e047df53, 1973781, sglang::scheduler_TP2, 22152\nGPU-5a12632a-8c83-45ff-c3c7-c9f45d8c91b7, 1973782, sglang::scheduler_TP3, 22152\nGPU-93d52b95-66d0-e9fe-3f31-fd32907a8e54, 1406451, VLLM::Worker_TP0, 22926\nGPU-bc1812c8-8332-1ef4-34a1-1e79bb484720, 1406453, VLLM::Worker_TP1, 22926\nGPU-d9af5414-9bb1-4bf3-3d54-660c92881185, 1406454, VLLM::Worker_TP2, 22926\nGPU-30c00cbc-8c4c-35c4-f66b-cc8c2bc72e39, 1406458, VLLM::Worker_TP3, 22926\n",
+    "stderr": ""
+  }
+}

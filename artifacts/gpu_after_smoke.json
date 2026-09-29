@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "stdout": "kglabgpu01                  Mon Sep 28 01:35:03 2026  550.54.14\n[0] NVIDIA GeForce RTX 3090 | 24°„C,   0 % |    10 / 24576 MB | gdm(4M)\n[1] NVIDIA GeForce RTX 3090 | 23°„C,   0 % |    10 / 24576 MB | gdm(4M)\n[2] NVIDIA GeForce RTX 3090 | 24°„C,   0 % |    10 / 24576 MB | gdm(4M)\n[3] NVIDIA GeForce RTX 3090 | 25°„C,   0 % |    10 / 24576 MB | gdm(4M)\n[4] NVIDIA GeForce RTX 3090 | 22°„C,   0 % |    10 / 24576 MB | gdm(4M)\n[5] NVIDIA GeForce RTX 3090 | 25°„C,   0 % |    10 / 24576 MB | gdm(4M)\n[6] NVIDIA GeForce RTX 3090 | 29°„C,   0 % |    10 / 24576 MB | gdm(4M)\n[7] NVIDIA GeForce RTX 3090 | 26°„C,   0 % |    10 / 24576 MB | gdm(4M)\n",
+  "stderr": ""
+}

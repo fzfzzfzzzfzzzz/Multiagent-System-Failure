@@ -1,0 +1,153 @@
+{
+  "checked_at": 1790628765.9902954,
+  "unit": "MainPID=0\nResult=success\nActiveState=inactive\nSubState=dead\n",
+  "status": {
+    "started_at": 1790598185.9634976,
+    "supervisor_pid": 1347550,
+    "state": "completed",
+    "gpu_before": [
+      {
+        "gpu": 6,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      },
+      {
+        "gpu": 7,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      }
+    ],
+    "server_pid": 1347553,
+    "client_pid": 1348017,
+    "model_ready_at": 1790598226.074038,
+    "checked_at": 1790598396.1098175,
+    "heartbeat_age_seconds": 0.68,
+    "client_exit_code": 0,
+    "finished_at": 1790598405.3158243,
+    "cleanup_requested": true,
+    "gpu_after": [
+      {
+        "gpu": 6,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      },
+      {
+        "gpu": 7,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      }
+    ],
+    "owned_gpu_pids_remaining": [],
+    "foreign_gpu_pids_after": [],
+    "gpu_released": true
+  },
+  "heartbeat": {
+    "at": 1790598400.2180197,
+    "pid": 1348017,
+    "event": "pilot_completed"
+  },
+  "progress": {
+    "source_records": 32,
+    "qualified_failures": 28,
+    "pending_reports": 0
+  },
+  "gate": {
+    "counts": {
+      "F1": 6,
+      "F2": 6,
+      "F3": 8,
+      "F4": 8
+    },
+    "minimum_per_mechanism": 1,
+    "passed": true
+  },
+  "completion": {
+    "completed": 12,
+    "planned": 224,
+    "mock": false,
+    "out": "/data/fangc/teamlearn/runs/pilot8b_20260928_v3/pilot/E0"
+  },
+  "experiment_tail": [
+    "E0 5/12 source_evidence same: first=False recurrence=True",
+    "E0 6/12 no_memory same: first=False recurrence=True",
+    "E0 7/12 source_evidence same: first=False recurrence=True",
+    "E0 8/12 no_memory same: first=False recurrence=True",
+    "E0 9/12 no_memory same: first=False recurrence=True",
+    "E0 10/12 uniform same: first=False recurrence=True",
+    "E0 11/12 source_evidence same: first=False recurrence=True",
+    "E0 12/12 source_evidence same: first=False recurrence=True"
+  ],
+  "model_tail": [
+    "INFO:     127.0.0.1:39670 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:39672 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:39666 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO 09-28 20:26:41 [launcher.py:79] Shutting down FastAPI HTTP server.",
+    "INFO:     Shutting down",
+    "INFO 09-28 20:26:44 [loggers.py:111] Engine 000: Avg prompt throughput: 1264.3 tokens/s, Avg generation throughput: 17.4 tokens/s, Running: 0 reqs, Waiting: 0 reqs, GPU KV cache usage: 0.0%, Prefix cache hit rate: 78.5%",
+    "INFO:     Waiting for application shutdown.",
+    "INFO:     Application shutdown complete."
+  ],
+  "gpus": [
+    {
+      "gpu": 0,
+      "used_mb": 22589,
+      "util": 92,
+      "compute_pids": [
+        1075873,
+        1076119
+      ]
+    },
+    {
+      "gpu": 1,
+      "used_mb": 22266,
+      "util": 93,
+      "compute_pids": [
+        1076120
+      ]
+    },
+    {
+      "gpu": 2,
+      "used_mb": 22266,
+      "util": 94,
+      "compute_pids": [
+        1076121
+      ]
+    },
+    {
+      "gpu": 3,
+      "used_mb": 22266,
+      "util": 94,
+      "compute_pids": [
+        1076122
+      ]
+    },
+    {
+      "gpu": 4,
+      "used_mb": 10,
+      "util": 0,
+      "compute_pids": []
+    },
+    {
+      "gpu": 5,
+      "used_mb": 10,
+      "util": 0,
+      "compute_pids": []
+    },
+    {
+      "gpu": 6,
+      "used_mb": 11,
+      "util": 0,
+      "compute_pids": []
+    },
+    {
+      "gpu": 7,
+      "used_mb": 10,
+      "util": 0,
+      "compute_pids": []
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "checked_at": 1790566563.0688,
+  "unit": "MainPID=1123046\nResult=success\nActiveState=active\nSubState=running\n",
+  "status": {
+    "started_at": 1790566385.0555127,
+    "supervisor_pid": 1123046,
+    "state": "running",
+    "gpu_before": [
+      {
+        "gpu": 6,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      },
+      {
+        "gpu": 7,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      }
+    ],
+    "server_pid": 1123050,
+    "client_pid": 1124125,
+    "model_ready_at": 1790566497.2015326,
+    "checked_at": 1790566562.2148798,
+    "heartbeat_age_seconds": 0.29
+  },
+  "heartbeat": {
+    "at": 1790566561.934518,
+    "pid": 1124125,
+    "event": "model_call_completed",
+    "model": "Qwen3-8B",
+    "phase": "execution",
+    "input_tokens": 1105,
+    "output_tokens": 12
+  },
+  "progress": {
+    "source_records": 0,
+    "qualified_failures": 0,
+    "pending_reports": 0
+  },
+  "gate": null,
+  "completion": null,
+  "experiment_tail": [],
+  "model_tail": [
+    "INFO:     127.0.0.1:35988 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:35988 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:35988 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:35988 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:35988 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:35988 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:35990 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:35990 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK"
+  ],
+  "gpus": [
+    {
+      "gpu": 0,
+      "used_mb": 22549,
+      "util": 93,
+      "compute_pids": [
+        1075873,
+        1076119
+      ]
+    },
+    {
+      "gpu": 1,
+      "used_mb": 22226,
+      "util": 93,
+      "compute_pids": [
+        1076120
+      ]
+    },
+    {
+      "gpu": 2,
+      "used_mb": 22226,
+      "util": 94,
+      "compute_pids": [
+        1076121
+      ]
+    },
+    {
+      "gpu": 3,
+      "used_mb": 22226,
+      "util": 94,
+      "compute_pids": [
+        1076122
+      ]
+    },
+    {
+      "gpu": 4,
+      "used_mb": 10,
+      "util": 0,
+      "compute_pids": []
+    },
+    {
+      "gpu": 5,
+      "used_mb": 10,
+      "util": 0,
+      "compute_pids": []
+    },
+    {
+      "gpu": 6,
+      "used_mb": 19295,
+      "util": 48,
+      "compute_pids": [
+        1123507
+      ]
+    },
+    {
+      "gpu": 7,
+      "used_mb": 19295,
+      "util": 73,
+      "compute_pids": [
+        1123508
+      ]
+    }
+  ]
+}

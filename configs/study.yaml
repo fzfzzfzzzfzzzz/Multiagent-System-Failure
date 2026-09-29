@@ -1,0 +1,19 @@
+version: 1
+model: qwen3_8b
+models_file: configs/models.yaml
+dataset: datasets
+root: runs/study_v1
+per_family: 8
+source_seeds: [11, 29, 47]
+target_seeds: [101, 211, 307]
+rounds: 2
+turns_per_role: 7
+mechanisms_primary: [F1, F2, F3, F4]
+core_experiments: [E1, E2, E3, E4, E5, E7]
+source_filters: none
+minimum_dev_failures_per_primary_mechanism: 1
+stream_count: 5
+stream_steps: 50
+probe_every: 10
+# Inferential units: 8 train, 6 dev and 12 test aggregation-rule families.
+# Seeds, mechanisms and SQLite replicas do not multiply independent clusters.

@@ -1,0 +1,46 @@
+[
+  {
+    "case": "success",
+    "state": "completed",
+    "error": null,
+    "pids_alive": {
+      "1122287": false,
+      "1122292": false
+    },
+    "main_sigkill_sent": false,
+    "unit": "Result=success\nActiveState=inactive\nSubState=dead\n"
+  },
+  {
+    "case": "failure",
+    "state": "failed",
+    "error": "RuntimeError: experiment exited with code 7; inspect experiment.log",
+    "pids_alive": {
+      "1122301": false,
+      "1122308": false
+    },
+    "main_sigkill_sent": false,
+    "unit": "Result=exit-code\nActiveState=failed\nSubState=failed\n"
+  },
+  {
+    "case": "idle",
+    "state": "failed",
+    "error": "TimeoutError: no completed model call/client progress for 3s",
+    "pids_alive": {
+      "1122389": false,
+      "1122394": false
+    },
+    "main_sigkill_sent": false,
+    "unit": "Result=exit-code\nActiveState=failed\nSubState=failed\n"
+  },
+  {
+    "case": "crash",
+    "state": "running",
+    "error": null,
+    "pids_alive": {
+      "1122407": false,
+      "1122412": false
+    },
+    "main_sigkill_sent": true,
+    "unit": "Result=signal\nActiveState=failed\nSubState=failed\n"
+  }
+]

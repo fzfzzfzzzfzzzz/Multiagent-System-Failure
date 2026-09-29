@@ -1,0 +1,80 @@
+{
+  "purpose": "software_smoke_only_not_research",
+  "source_backend": "sqlite",
+  "target_backend": "workflow",
+  "source_score": {
+    "abstained": false,
+    "commit_checks": [
+      {
+        "F1": false,
+        "F2": true,
+        "F3": false,
+        "F4": true,
+        "F5": true,
+        "F6": true,
+        "legal_polling": true
+      }
+    ],
+    "final_success": false,
+    "first_success": false,
+    "local_checks": {
+      "analyst": true,
+      "coordinator": false,
+      "executor": true,
+      "provider": true
+    },
+    "new_errors": [
+      "F1"
+    ],
+    "opportunity": true,
+    "preventive_action": true,
+    "recurrence": true,
+    "strict_composition_failure": false,
+    "unnecessary_wait": false
+  },
+  "target_score": {
+    "abstained": false,
+    "commit_checks": [
+      {
+        "F1": false,
+        "F2": true,
+        "F3": false,
+        "F4": true,
+        "F5": true,
+        "F6": true,
+        "legal_polling": true
+      }
+    ],
+    "final_success": false,
+    "first_success": false,
+    "local_checks": {
+      "analyst": true,
+      "coordinator": false,
+      "executor": true,
+      "provider": true
+    },
+    "new_errors": [
+      "F1"
+    ],
+    "opportunity": true,
+    "preventive_action": true,
+    "recurrence": true,
+    "strict_composition_failure": false,
+    "unnecessary_wait": false
+  },
+  "report_atoms": {
+    "S": 2,
+    "O": 3,
+    "C": 0,
+    "D": 0,
+    "K": 0,
+    "P": 1,
+    "V": 0,
+    "U": 0
+  },
+  "activated_deliveries": 4,
+  "api_calls": 41,
+  "total_input_tokens": 76836,
+  "total_output_tokens": 1054,
+  "completed": true
+}

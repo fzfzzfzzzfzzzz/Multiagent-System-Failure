@@ -1,0 +1,43 @@
+{
+  "cwd": "/home/fangc/teamlearn/releases/pilot8b_20260928_v3",
+  "state_dir": "/data/fangc/teamlearn/runs/pilot8b_20260928_v3/controller",
+  "port": 18151,
+  "gpus": [
+    6,
+    7
+  ],
+  "server_command": [
+    "bash",
+    "/home/fangc/teamlearn/releases/pilot8b_20260928_v3/scripts/serve_model.sh",
+    "8b",
+    "6,7",
+    "18151"
+  ],
+  "client_command": [
+    "/data/fangc/envs/vllm-0.8.5/bin/python",
+    "/home/fangc/teamlearn/releases/pilot8b_20260928_v3/scripts/pilot_job.py",
+    "--dataset",
+    "/data/fangc/teamlearn/runs/pilot8b_20260928_v1/datasets",
+    "--out",
+    "/data/fangc/teamlearn/runs/pilot8b_20260928_v3/pilot",
+    "--models",
+    "configs/models.yaml",
+    "--model",
+    "qwen3_8b",
+    "--turns",
+    "3"
+  ],
+  "ready_url": "http://127.0.0.1:18151/v1/models",
+  "expected_model": "Qwen3-8B",
+  "startup_timeout": 600,
+  "idle_timeout": 300,
+  "max_runtime": 43200,
+  "minimum_disk_gb": 5,
+  "env": {
+    "PYTHONPATH": "/data/fangc/teamlearn/gpu_tools:/home/fangc/teamlearn/releases/pilot8b_20260928_v3",
+    "OMP_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4",
+    "TOKENIZERS_PARALLELISM": "false",
+    "PYTHONUNBUFFERED": "1"
+  }
+}

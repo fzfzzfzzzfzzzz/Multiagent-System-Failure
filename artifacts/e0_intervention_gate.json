@@ -1,0 +1,55 @@
+{
+  "purpose": "operational E0 task/intervention sensitivity gate; not confirmatory evidence",
+  "source_gate": {
+    "counts": {
+      "F1": 6,
+      "F2": 6,
+      "F3": 8,
+      "F4": 8
+    },
+    "minimum_per_mechanism": 1,
+    "passed": true
+  },
+  "rows": 224,
+  "complete_paired_units": 56,
+  "method_summary": {
+    "no_memory": {
+      "n": 56,
+      "first_success": 0.0,
+      "recurrence": 0.8571428571428571
+    },
+    "uniform": {
+      "n": 56,
+      "first_success": 0.0,
+      "recurrence": 0.8035714285714286
+    },
+    "source_evidence": {
+      "n": 56,
+      "first_success": 0.0,
+      "recurrence": 0.875
+    },
+    "full_history": {
+      "n": 56,
+      "first_success": 0.0,
+      "recurrence": 0.5535714285714286
+    }
+  },
+  "intervention_sensitive_pairs": 35,
+  "sensitive_mechanisms": [
+    "F1",
+    "F2",
+    "F3",
+    "F4"
+  ],
+  "minimum_sensitive_pairs": 3,
+  "minimum_sensitive_mechanisms": 2,
+  "minimum_no_memory_recurrence": 0.2,
+  "passed": true,
+  "caution": "Gate checks observable variation and baseline difficulty only; H1/H4 require frozen independent-test contrasts.",
+  "e0_completion": {
+    "completed": 12,
+    "planned": 224,
+    "mock": false,
+    "out": "/data/fangc/teamlearn/runs/pilot8b_20260928_v3/pilot/E0"
+  }
+}

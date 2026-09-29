@@ -1,0 +1,1514 @@
+{
+  "E0": {
+    "arms": [
+      {
+        "name": "no_memory",
+        "method": "none",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "uniform",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "source_evidence",
+        "method": "uniform",
+        "components": "SODU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "full_history",
+        "method": "history",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      }
+    ],
+    "target_kinds": [
+      "same"
+    ],
+    "runs_per_source_at_3_seeds": 12
+  },
+  "E1": {
+    "arms": [
+      {
+        "name": "components_S",
+        "method": "uniform",
+        "components": "S",
+        "budget": 16384,
+        "budget_mode": "content_set"
+      },
+      {
+        "name": "components_SO",
+        "method": "uniform",
+        "components": "SO",
+        "budget": 16384,
+        "budget_mode": "content_set"
+      },
+      {
+        "name": "components_SOC",
+        "method": "uniform",
+        "components": "SOC",
+        "budget": 16384,
+        "budget_mode": "content_set"
+      },
+      {
+        "name": "components_SOCD",
+        "method": "uniform",
+        "components": "SOCD",
+        "budget": 16384,
+        "budget_mode": "content_set"
+      },
+      {
+        "name": "components_SOCDK",
+        "method": "uniform",
+        "components": "SOCDK",
+        "budget": 16384,
+        "budget_mode": "content_set"
+      },
+      {
+        "name": "components_SP",
+        "method": "uniform",
+        "components": "SP",
+        "budget": 16384,
+        "budget_mode": "content_set"
+      },
+      {
+        "name": "components_SOCDKP",
+        "method": "uniform",
+        "components": "SOCDKP",
+        "budget": 16384,
+        "budget_mode": "content_set"
+      },
+      {
+        "name": "components_SOCDKPU",
+        "method": "uniform",
+        "components": "SOCDKPU",
+        "budget": 16384,
+        "budget_mode": "content_set"
+      },
+      {
+        "name": "components_SV",
+        "method": "uniform",
+        "components": "SV",
+        "budget": 16384,
+        "budget_mode": "content_set"
+      },
+      {
+        "name": "components_SOCDKPVU",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 16384,
+        "budget_mode": "content_set"
+      },
+      {
+        "name": "unrelated_budget_matched",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 16384,
+        "budget_mode": "content_set",
+        "unrelated": true
+      }
+    ],
+    "target_kinds": [
+      "same",
+      "transfer",
+      "reversal"
+    ],
+    "runs_per_source_at_3_seeds": 99
+  },
+  "E2": {
+    "arms": [
+      {
+        "name": "subset_0",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": []
+      },
+      {
+        "name": "subset_1",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "coordinator"
+        ]
+      },
+      {
+        "name": "subset_2",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "provider"
+        ]
+      },
+      {
+        "name": "subset_3",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_4",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_5",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "coordinator",
+          "provider"
+        ]
+      },
+      {
+        "name": "subset_6",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "coordinator",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_7",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "coordinator",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_8",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "provider",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_9",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "provider",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_10",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_11",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_12",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_13",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "coordinator",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_14",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "provider",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_15",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "per_agent",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "analyst",
+          "executor"
+        ]
+      }
+    ],
+    "target_kinds": [
+      "same"
+    ],
+    "runs_per_source_at_3_seeds": 48
+  },
+  "E3": {
+    "arms": [
+      {
+        "name": "matched",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "content_set",
+        "role_views": true
+      },
+      {
+        "name": "cycle",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "content_set",
+        "role_views": true,
+        "permutation": "cycle"
+      },
+      {
+        "name": "random",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "content_set",
+        "role_views": true,
+        "permutation": "random"
+      },
+      {
+        "name": "factor_00",
+        "method": "uniform",
+        "components": "SP",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipient_mode": "fixed"
+      },
+      {
+        "name": "factor_01",
+        "method": "uniform",
+        "components": "SP",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipient_mode": "related"
+      },
+      {
+        "name": "factor_10",
+        "method": "uniform",
+        "components": "SOCDKPU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipient_mode": "fixed"
+      },
+      {
+        "name": "factor_11",
+        "method": "uniform",
+        "components": "SOCDKPU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipient_mode": "related"
+      },
+      {
+        "name": "structured",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "content_set"
+      },
+      {
+        "name": "flat",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "content_set",
+        "style": "flat"
+      },
+      {
+        "name": "pointers",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "pointers": true
+      },
+      {
+        "name": "evidence_full",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      }
+    ],
+    "target_kinds": [
+      "same",
+      "transfer",
+      "reversal"
+    ],
+    "runs_per_source_at_3_seeds": 99
+  },
+  "E4": {
+    "arms": [
+      {
+        "name": "no_memory",
+        "method": "none",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "full",
+        "method": "mechanism",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "no_K",
+        "method": "mechanism",
+        "components": "SOCDPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "rule_only",
+        "method": "rule",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "old_id",
+        "method": "mechanism",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "bind_old_ids": true
+      },
+      {
+        "name": "train_library",
+        "method": "role_rag",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "memory_mode": "train_only"
+      }
+    ],
+    "target_kinds": [
+      "same",
+      "transfer",
+      "reversal",
+      "clean",
+      "unrelated",
+      "renamed"
+    ],
+    "runs_per_source_at_3_seeds": 108
+  },
+  "E5": {
+    "arms": [
+      {
+        "name": "uniform_b512",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "culprit_b512",
+        "method": "culprit",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "role_rag_b512",
+        "method": "role_rag",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "gmemory_adapt_b512",
+        "method": "gmemory_adapt",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "mechanism_b512",
+        "method": "mechanism",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "learned_b512",
+        "method": "learned",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "uniform_b1024",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "culprit_b1024",
+        "method": "culprit",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "role_rag_b1024",
+        "method": "role_rag",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "gmemory_adapt_b1024",
+        "method": "gmemory_adapt",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "mechanism_b1024",
+        "method": "mechanism",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "learned_b1024",
+        "method": "learned",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "uniform_b2048",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "culprit_b2048",
+        "method": "culprit",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "role_rag_b2048",
+        "method": "role_rag",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "gmemory_adapt_b2048",
+        "method": "gmemory_adapt",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "mechanism_b2048",
+        "method": "mechanism",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "learned_b2048",
+        "method": "learned",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "uniform_b4096",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "culprit_b4096",
+        "method": "culprit",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "role_rag_b4096",
+        "method": "role_rag",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "gmemory_adapt_b4096",
+        "method": "gmemory_adapt",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "mechanism_b4096",
+        "method": "mechanism",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "learned_b4096",
+        "method": "learned",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "full_history",
+        "method": "history",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      }
+    ],
+    "target_kinds": [
+      "same",
+      "transfer",
+      "reversal"
+    ],
+    "runs_per_source_at_3_seeds": 225
+  },
+  "E7": {
+    "arms": [
+      {
+        "name": "none",
+        "method": "none",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "uniform",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "role_rag",
+        "method": "role_rag",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "gmemory_adapt",
+        "method": "gmemory_adapt",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "mechanism",
+        "method": "mechanism",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "learned",
+        "method": "learned",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      }
+    ],
+    "target_kinds": [
+      "same",
+      "transfer",
+      "reversal"
+    ],
+    "runs_per_source_at_3_seeds": 54
+  },
+  "TRAIN": {
+    "arms": [
+      {
+        "name": "subset_0_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": []
+      },
+      {
+        "name": "subset_1_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator"
+        ]
+      },
+      {
+        "name": "subset_2_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider"
+        ]
+      },
+      {
+        "name": "subset_3_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_4_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_5_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider"
+        ]
+      },
+      {
+        "name": "subset_6_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_7_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_8_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_9_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_10_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_11_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_12_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_13_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_14_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_15_b512",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 512,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_0_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": []
+      },
+      {
+        "name": "subset_1_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator"
+        ]
+      },
+      {
+        "name": "subset_2_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider"
+        ]
+      },
+      {
+        "name": "subset_3_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_4_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_5_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider"
+        ]
+      },
+      {
+        "name": "subset_6_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_7_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_8_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_9_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_10_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_11_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_12_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_13_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_14_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_15_b1024",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 1024,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_0_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": []
+      },
+      {
+        "name": "subset_1_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator"
+        ]
+      },
+      {
+        "name": "subset_2_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider"
+        ]
+      },
+      {
+        "name": "subset_3_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_4_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_5_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider"
+        ]
+      },
+      {
+        "name": "subset_6_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_7_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_8_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_9_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_10_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_11_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_12_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_13_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_14_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_15_b2048",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_0_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": []
+      },
+      {
+        "name": "subset_1_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator"
+        ]
+      },
+      {
+        "name": "subset_2_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider"
+        ]
+      },
+      {
+        "name": "subset_3_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_4_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_5_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider"
+        ]
+      },
+      {
+        "name": "subset_6_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_7_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_8_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_9_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_10_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_11_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "analyst"
+        ]
+      },
+      {
+        "name": "subset_12_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_13_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_14_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "provider",
+          "analyst",
+          "executor"
+        ]
+      },
+      {
+        "name": "subset_15_b4096",
+        "method": "subset",
+        "components": "SOCDKPVU",
+        "budget": 4096,
+        "budget_mode": "team_total",
+        "recipients": [
+          "coordinator",
+          "provider",
+          "analyst",
+          "executor"
+        ]
+      }
+    ],
+    "target_kinds": [
+      "same"
+    ],
+    "runs_per_source_at_3_seeds": 192
+  },
+  "BASELINES": {
+    "arms": [
+      {
+        "name": "none",
+        "method": "none",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "success",
+        "method": "success",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "rule",
+        "method": "rule",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "history",
+        "method": "history",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "uniform",
+        "method": "uniform",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "independent",
+        "method": "independent",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "culprit",
+        "method": "culprit",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "coordinator",
+        "method": "coordinator",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "role_rag",
+        "method": "role_rag",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "gmemory_adapt",
+        "method": "gmemory_adapt",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "mechanism",
+        "method": "mechanism",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      },
+      {
+        "name": "learned",
+        "method": "learned",
+        "components": "SOCDKPVU",
+        "budget": 2048,
+        "budget_mode": "team_total"
+      }
+    ],
+    "target_kinds": [
+      "same",
+      "transfer",
+      "reversal"
+    ],
+    "runs_per_source_at_3_seeds": 108
+  },
+  "E6": {
+    "groups": [
+      "L0",
+      "L1",
+      "L2",
+      "L3"
+    ],
+    "default_streams": 5,
+    "default_steps": 50,
+    "read_only_probes": true
+  }
+}

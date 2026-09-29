@@ -1,0 +1,238 @@
+{
+  "dev_E1": {
+    "reversal": {
+      "components_SOCDKPU": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.0
+      },
+      "components_SP": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.0
+      }
+    },
+    "same": {
+      "components_SOCDKPU": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.75
+      },
+      "components_SP": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.75
+      }
+    },
+    "transfer": {
+      "components_SOCDKPU": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.75
+      },
+      "components_SP": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 1.0
+      }
+    }
+  },
+  "dev_E3": {
+    "reversal": {
+      "cycle": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.0
+      },
+      "matched": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.0
+      },
+      "random": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.0
+      }
+    },
+    "same": {
+      "cycle": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.25
+      },
+      "matched": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.5
+      },
+      "random": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.5
+      }
+    },
+    "transfer": {
+      "cycle": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 1.0
+      },
+      "matched": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 0.5
+      },
+      "random": {
+        "n": 4,
+        "first_success": 0.0,
+        "recurrence": 1.0
+      }
+    }
+  },
+  "dev_E2": {
+    "subset_0": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": []
+    },
+    "subset_1": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": [
+        "coordinator"
+      ]
+    },
+    "subset_2": {
+      "n": 4,
+      "first_success": 0.25,
+      "recurrence": 0.75,
+      "recipients": [
+        "provider"
+      ]
+    },
+    "subset_3": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": [
+        "analyst"
+      ]
+    },
+    "subset_4": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 1.0,
+      "recipients": [
+        "executor"
+      ]
+    },
+    "subset_5": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": [
+        "coordinator",
+        "provider"
+      ]
+    },
+    "subset_6": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": [
+        "coordinator",
+        "analyst"
+      ]
+    },
+    "subset_7": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": [
+        "coordinator",
+        "executor"
+      ]
+    },
+    "subset_8": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": [
+        "provider",
+        "analyst"
+      ]
+    },
+    "subset_9": {
+      "n": 4,
+      "first_success": 0.25,
+      "recurrence": 0.75,
+      "recipients": [
+        "provider",
+        "executor"
+      ]
+    },
+    "subset_10": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": [
+        "analyst",
+        "executor"
+      ]
+    },
+    "subset_11": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.5,
+      "recipients": [
+        "coordinator",
+        "provider",
+        "analyst"
+      ]
+    },
+    "subset_12": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": [
+        "coordinator",
+        "provider",
+        "executor"
+      ]
+    },
+    "subset_13": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": [
+        "coordinator",
+        "analyst",
+        "executor"
+      ]
+    },
+    "subset_14": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": [
+        "provider",
+        "analyst",
+        "executor"
+      ]
+    },
+    "subset_15": {
+      "n": 4,
+      "first_success": 0.0,
+      "recurrence": 0.75,
+      "recipients": [
+        "coordinator",
+        "provider",
+        "analyst",
+        "executor"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "unit": "inactive",
+  "known_owned_pids_alive": [],
+  "gpus": [
+    {
+      "gpu": 4,
+      "used_mb": 333,
+      "pids": []
+    },
+    {
+      "gpu": 5,
+      "used_mb": 333,
+      "pids": []
+    }
+  ]
+}

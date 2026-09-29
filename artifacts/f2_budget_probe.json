@@ -1,0 +1,122 @@
+{
+  "v2_gate": {
+    "counts": {
+      "F1": 7,
+      "F2": 0,
+      "F3": 8,
+      "F4": 8
+    },
+    "minimum_per_mechanism": 1,
+    "passed": false
+  },
+  "v2_status": {
+    "started_at": 1790592189.4659262,
+    "supervisor_pid": 1287003,
+    "state": "failed",
+    "gpu_before": [
+      {
+        "gpu": 6,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      },
+      {
+        "gpu": 7,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      }
+    ],
+    "server_pid": 1287007,
+    "client_pid": 1287936,
+    "model_ready_at": 1790592253.559897,
+    "checked_at": 1790593133.751454,
+    "heartbeat_age_seconds": 10.81,
+    "error": "RuntimeError: experiment exited with code 1; inspect experiment.log",
+    "finished_at": 1790593144.5572312,
+    "cleanup_requested": true,
+    "gpu_after": [
+      {
+        "gpu": 6,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      },
+      {
+        "gpu": 7,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      }
+    ],
+    "gpu_released": true
+  },
+  "f2_design": {
+    "stage": "development-only-F2-difficulty-probe",
+    "dataset_hash": "e563293f1e28cb83f813d7f67f3ca664da1addebb958922b8939fd3a90fcdeaf",
+    "selection": "one F2 workflow candidate per development rule family; no outcome selection",
+    "meta_ids": [
+      "02a39a5320597b96fedd",
+      "2921c8d1b95f8cce6a99",
+      "1fab7553a93a7929d564",
+      "106a2be8c3b09c3744b6",
+      "01ac1251dbbde61286d8",
+      "35963b29872b8082b33c"
+    ],
+    "source_seeds": [
+      11,
+      29,
+      47
+    ],
+    "rounds": 2,
+    "turns_per_role": 3,
+    "model": "qwen3_8b"
+  },
+  "f2_completion": {
+    "qualified_F2": 4,
+    "candidates": 6,
+    "passed": true
+  },
+  "f2_status": {
+    "started_at": 1790593422.6101127,
+    "supervisor_pid": 1300800,
+    "state": "completed",
+    "gpu_before": [
+      {
+        "gpu": 6,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      },
+      {
+        "gpu": 7,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      }
+    ],
+    "server_pid": 1300803,
+    "client_pid": 1301987,
+    "model_ready_at": 1790593474.7322445,
+    "checked_at": 1790593714.7839105,
+    "heartbeat_age_seconds": 0.09,
+    "client_exit_code": 0,
+    "finished_at": 1790593724.1889157,
+    "cleanup_requested": true,
+    "gpu_after": [
+      {
+        "gpu": 6,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      },
+      {
+        "gpu": 7,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      }
+    ],
+    "gpu_released": true
+  }
+}

@@ -1,0 +1,34 @@
+# Exact model directory names verified on 2026-09-28. No credentials here.
+default: qwen3_8b
+models:
+  mock:
+    backend: mock
+    model: mock-NOT-RESEARCH
+  qwen3_8b:
+    backend: openai_compatible
+    base_url: http://127.0.0.1:18151/v1
+    model: Qwen3-8B
+    temperature: 0.2
+    max_tokens: 512
+    timeout: 120
+    extra_body:
+      chat_template_kwargs: {enable_thinking: false}
+  qwen3_14b:
+    backend: openai_compatible
+    base_url: http://127.0.0.1:18152/v1
+    model: Qwen3-14B
+    temperature: 0.2
+    max_tokens: 512
+    timeout: 180
+    extra_body:
+      chat_template_kwargs: {enable_thinking: false}
+  qwen38_27b:
+    backend: openai_compatible
+    base_url: http://127.0.0.1:18158/v1
+    model: Qwen3.8-27B
+    tokenizer_url: http://127.0.0.1:18159/tokenize
+    temperature: 0.2
+    max_tokens: 512
+    timeout: 180
+    extra_body:
+      chat_template_kwargs: {enable_thinking: false}

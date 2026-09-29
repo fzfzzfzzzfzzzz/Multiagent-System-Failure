@@ -1,0 +1,324 @@
+[
+  {
+    "experiment": "E3",
+    "kind": "reversal",
+    "a": "matched",
+    "b": "cycle",
+    "metric": "first_success",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "reversal",
+    "a": "matched",
+    "b": "cycle",
+    "metric": "recurrence",
+    "n_pairs": 0,
+    "estimable": false
+  },
+  {
+    "experiment": "E3",
+    "kind": "reversal",
+    "a": "matched",
+    "b": "cycle",
+    "metric": "total_tokens",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "same",
+    "a": "matched",
+    "b": "cycle",
+    "metric": "first_success",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "same",
+    "a": "matched",
+    "b": "cycle",
+    "metric": "recurrence",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "same",
+    "a": "matched",
+    "b": "cycle",
+    "metric": "total_tokens",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "transfer",
+    "a": "matched",
+    "b": "cycle",
+    "metric": "first_success",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "transfer",
+    "a": "matched",
+    "b": "cycle",
+    "metric": "recurrence",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "transfer",
+    "a": "matched",
+    "b": "cycle",
+    "metric": "total_tokens",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "reversal",
+    "a": "matched",
+    "b": "random",
+    "metric": "first_success",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "reversal",
+    "a": "matched",
+    "b": "random",
+    "metric": "recurrence",
+    "n_pairs": 0,
+    "estimable": false
+  },
+  {
+    "experiment": "E3",
+    "kind": "reversal",
+    "a": "matched",
+    "b": "random",
+    "metric": "total_tokens",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "same",
+    "a": "matched",
+    "b": "random",
+    "metric": "first_success",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "same",
+    "a": "matched",
+    "b": "random",
+    "metric": "recurrence",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "same",
+    "a": "matched",
+    "b": "random",
+    "metric": "total_tokens",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "transfer",
+    "a": "matched",
+    "b": "random",
+    "metric": "first_success",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "transfer",
+    "a": "matched",
+    "b": "random",
+    "metric": "recurrence",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  },
+  {
+    "experiment": "E3",
+    "kind": "transfer",
+    "a": "matched",
+    "b": "random",
+    "metric": "total_tokens",
+    "n_pairs": 1,
+    "n_clusters": 1,
+    "estimable": true,
+    "difference": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "p_block_permutation": 1.0,
+    "small_cluster_warning": true,
+    "estimand": "equally weighted rule-family mean of paired differences",
+    "p_holm": 1.0
+  }
+]

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+.env
+*.pem
+*.key
+datasets/
+runs/
+reports/
+evaluator_private/
+artifacts/remote_credentials*
+artifacts/*.log
+fangc-README.pdf

@@ -1,0 +1,33 @@
+version: 1
+primary:
+  H1:
+    experiment: E1
+    contrast: [components_SOCDKPU, components_SP]
+    population: same
+    outcomes: [first_success, recurrence]
+  H4:
+    experiment: E3
+    contrast: [matched, cycle]
+    validation_contrast: [matched, random]
+    population: same
+    outcomes: [first_success, recurrence]
+secondary:
+  H3: E2 equal-cardinality recipient sets; no test-optimal deployable subset
+  H5: E4 full versus no_K and no_memory on reversals, excluding F1 from mechanism claims
+  H6: E5 learned versus uniform, culprit, role_rag, gmemory_adapt and mechanism at each declared initial-context budget
+  H8: E7 same-model and separately frozen heterogeneous teams on SQLite application workflow
+exploratory:
+  H7: E6 chronological train streams and non-writing development probes
+  F5_F6: mechanism coverage extension
+statistics:
+  cluster: aggregation-rule family across seeds, mechanisms and backends
+  paired_unit: [meta_id, target_id, seed]
+  bootstrap_samples: 5000
+  permutation: exhaustive sign-flip up to 16 clusters; Monte Carlo above 16
+  multiplicity: Holm within the emitted registered comparison family
+  noninferiority_margin: null
+  auto_accept_hypotheses: false
+budget:
+  scope: initial delivered report context
+  actual_prefill_cost: recorded separately and included in actual API usage
+  amounts: [512, 1024, 2048, 4096]

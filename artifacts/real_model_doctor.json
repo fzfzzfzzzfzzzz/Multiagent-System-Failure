@@ -1,0 +1,19 @@
+{
+  "model": "Qwen3-8B",
+  "tokenizer_test": 10,
+  "reply": "{\"ready\":true}",
+  "usage": [
+    {
+      "model": "Qwen3-8B",
+      "phase": "doctor",
+      "seed": 1,
+      "attempt": 0,
+      "input_tokens": 20,
+      "output_tokens": 6,
+      "seconds": 1.827999999979511,
+      "finish_reason": "stop",
+      "system_fingerprint": null,
+      "response_id": "chatcmpl-c734fa96b8b84ad38d8e8c061a2cdd16"
+    }
+  ]
+}

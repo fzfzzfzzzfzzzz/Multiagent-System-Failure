@@ -1,0 +1,597 @@
+{
+  "purpose": "outcome-blind export of the preregistered H1/H4 same-condition family",
+  "automatic_hypothesis_acceptance": false,
+  "controller_status": {
+    "started_at": 1790623909.0508342,
+    "supervisor_pid": 1478211,
+    "state": "failed",
+    "config": {
+      "cwd": "/home/fangc/teamlearn/releases/core8b_20260928_v3",
+      "state_dir": "/data/fangc/teamlearn/runs/core8b_20260928_v2/controller",
+      "port": 18152,
+      "gpus": [
+        4,
+        5
+      ],
+      "server_command": [
+        "bash",
+        "/home/fangc/teamlearn/releases/core8b_20260928_v3/scripts/serve_model.sh",
+        "8b",
+        "4,5",
+        "18152"
+      ],
+      "client_command": [
+        "/data/fangc/envs/vllm-0.8.5/bin/python",
+        "/home/fangc/teamlearn/releases/core8b_20260928_v3/scripts/core_job.py",
+        "--dataset",
+        "/data/fangc/teamlearn/runs/pilot8b_20260928_v1/datasets",
+        "--e0-sources",
+        "/data/fangc/teamlearn/runs/pilot8b_20260928_v3/pilot/collected",
+        "--e0-gate",
+        "/data/fangc/teamlearn/runs/pilot8b_20260928_v3/pilot/gate.json",
+        "--out",
+        "/data/fangc/teamlearn/runs/core8b_20260928_v2/core",
+        "--models",
+        "configs/models_core_151.yaml",
+        "--model",
+        "qwen3_8b",
+        "--stage",
+        "all"
+      ],
+      "ready_url": "http://127.0.0.1:18152/v1/models",
+      "expected_model": "Qwen3-8B",
+      "startup_timeout": 600,
+      "idle_timeout": 300,
+      "max_runtime": 43200,
+      "minimum_disk_gb": 5,
+      "env": {
+        "PYTHONPATH": "/data/fangc/teamlearn/gpu_tools:/home/fangc/teamlearn/releases/core8b_20260928_v3",
+        "OMP_NUM_THREADS": "4",
+        "MKL_NUM_THREADS": "4",
+        "TOKENIZERS_PARALLELISM": "false",
+        "PYTHONUNBUFFERED": "1"
+      }
+    },
+    "gpu_before": [
+      {
+        "gpu": 4,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      },
+      {
+        "gpu": 5,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      }
+    ],
+    "server_pid": 1478214,
+    "client_pid": 1478473,
+    "model_ready_at": 1790623951.1612747,
+    "checked_at": 1790628667.104121,
+    "heartbeat_age_seconds": 0.18,
+    "error": "RuntimeError: experiment exited with code 1; inspect experiment.log",
+    "finished_at": 1790628676.5099628,
+    "cleanup_requested": true,
+    "gpu_after": [
+      {
+        "gpu": 4,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      },
+      {
+        "gpu": 5,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      }
+    ],
+    "owned_gpu_pids_remaining": [],
+    "foreign_gpu_pids_after": [],
+    "gpu_released": true
+  },
+  "analysis_recovery": {
+    "complete": true,
+    "recovered_at": 1790628925.6435728,
+    "reason": "all model trials completed; original analysis stopped only because optional matplotlib was unavailable",
+    "original_controller_state": "failed",
+    "original_gpu_released": true,
+    "unit": "teamlearn-coreanalysis8b-260929-v1",
+    "unit_exit_code": 0,
+    "analysis_patch": "optional visualization omission; numerical estimands and tests unchanged",
+    "analysis_sha256_before": "32c050919dd640fb93067d0ad9f74d41f856dc56c3a38b42b8d433ceab2957a1",
+    "analysis_sha256_after": "54b5cc91012958996daa0f9293c0965611f48ca56c77d3c13d6186065b6e6702",
+    "rows": {
+      "E1": 810,
+      "E3": 1215
+    },
+    "planned_rows": {
+      "E1": 810,
+      "E3": 1215
+    },
+    "gpu_before": [
+      {
+        "gpu": 4,
+        "used_mb": 333,
+        "util": 0,
+        "pids": []
+      },
+      {
+        "gpu": 5,
+        "used_mb": 333,
+        "util": 0,
+        "pids": []
+      }
+    ],
+    "gpu_after": [
+      {
+        "gpu": 4,
+        "used_mb": 333,
+        "util": 0,
+        "pids": []
+      },
+      {
+        "gpu": 5,
+        "used_mb": 333,
+        "util": 0,
+        "pids": []
+      }
+    ],
+    "stdout_tail": [],
+    "stderr_tail": []
+  },
+  "design": {
+    "stage": "minimal-confirmatory-core",
+    "dataset_hash": "e563293f1e28cb83f813d7f67f3ca664da1addebb958922b8939fd3a90fcdeaf",
+    "selection": "one fixed workflow candidate per F1-F4 and test rule family; no outcome selection",
+    "test_meta_ids": [
+      "2f815755f2842ce7f574",
+      "0767d0b23629f945cef5",
+      "0421d35218cc43be3bbb",
+      "2150092ce0491423318d",
+      "0115f86fa22cb90bf33d",
+      "0b89802e52370df1177b",
+      "37401a127833e3342170",
+      "0f8e558455beac781349",
+      "1c53282d687ce101aae2",
+      "445f3c85532ddef1076c",
+      "0c9b14c12d1d31a8f67a",
+      "215d27b05384fd7680be",
+      "25645ad345242cb90a3f",
+      "094ab85810b18abd9a3d",
+      "03c7229e8ca3c99910cd",
+      "02bc0f698b7c67405a52",
+      "01b2ac496fa6c5f32d4d",
+      "27e72f574531d1b025c6",
+      "1f8b77768fa00cc84e4b",
+      "39d0007681ee8a629858",
+      "14479882a383b578dfd3",
+      "0f00a1e9ae1263a65874",
+      "20eb5e49b17a14b6fe60",
+      "090b44cbd34406968e3e",
+      "03bf2a7a86ee4a17303a",
+      "51b59e53ad52d374a2fe",
+      "255d75785fe517f0984b",
+      "23d98f6801bc8255853e",
+      "1691b24bf3fb02cf40e2",
+      "1287468abdd0ee88e2db",
+      "210267ef2caeae4a79e7",
+      "1ba3380f2f7e44093f30",
+      "01fea3b6512145a7059a",
+      "1f1f5ef246b75f714cf6",
+      "2dbdfc25b8599ab3d032",
+      "042829136ccd91ff3a3d",
+      "2f8336d0119f388ce499",
+      "0834ef80d6de9b40a347",
+      "00091e95c392f52039f1",
+      "1723d873258f9d811450",
+      "0be669e0b9871da2dfe0",
+      "1b234fa8ebb9ea7fe405",
+      "0773c7a79931b3428fca",
+      "3156a61d5dc1e95def1a",
+      "0e0896e0f3251a354d35",
+      "09e7dcbfe5e2888ed757",
+      "3bd8eec30ba1805d4ae4",
+      "20089b20c3bc5d9931a7"
+    ],
+    "test_candidate_counts": {
+      "F1": 12,
+      "F2": 12,
+      "F3": 12,
+      "F4": 12
+    },
+    "test_rule_families": [
+      "funds",
+      "inspection",
+      "inventory",
+      "packing",
+      "portfolio",
+      "quality",
+      "risk",
+      "routing",
+      "sampling",
+      "signals",
+      "temperature",
+      "water"
+    ],
+    "source_seeds": [
+      11,
+      29,
+      47
+    ],
+    "development_target_seeds": [
+      101
+    ],
+    "test_target_seeds": [
+      101,
+      211,
+      307
+    ],
+    "rounds": 2,
+    "turns_per_role": 3,
+    "budget_rationale": "development-only F2 probe: 7 calls made confirmation invariant; 3 calls yielded qualified F2 failures in 4/6 rule families",
+    "model": "qwen3_8b",
+    "development": {
+      "sources": "first qualified E0 source per mechanism in meta_id order",
+      "E1": [
+        "components_SOCDKPU",
+        "components_SP"
+      ],
+      "E2": "all 16 recipient subsets on same-condition targets",
+      "E3": [
+        "matched",
+        "cycle",
+        "random"
+      ],
+      "decision_rule": "freeze unchanged after executable development checks; do not choose arms from effects"
+    },
+    "confirmatory": {
+      "H1": {
+        "experiment": "E1",
+        "contrast": [
+          "components_SOCDKPU",
+          "components_SP"
+        ]
+      },
+      "H4": {
+        "experiment": "E3",
+        "contrasts": [
+          [
+            "matched",
+            "cycle"
+          ],
+          [
+            "matched",
+            "random"
+          ]
+        ]
+      },
+      "target_kinds": [
+        "same",
+        "transfer",
+        "reversal"
+      ]
+    },
+    "test_source_gate": {
+      "minimum_qualified_per_mechanism": 4,
+      "minimum_rule_families": 10
+    }
+  },
+  "test_source_gate": {
+    "counts": {
+      "F1": 12,
+      "F2": 11,
+      "F3": 12,
+      "F4": 10
+    },
+    "qualified": 45,
+    "rule_families": [
+      "funds",
+      "inspection",
+      "inventory",
+      "packing",
+      "portfolio",
+      "quality",
+      "risk",
+      "routing",
+      "sampling",
+      "signals",
+      "temperature",
+      "water"
+    ],
+    "n_rule_families": 12,
+    "minimum_qualified_per_mechanism": 4,
+    "minimum_rule_families": 10,
+    "passed": true
+  },
+  "completion": {
+    "complete": true,
+    "design_hash": "c2c74a2472241648f3000bf5422dfb16536feebefefe106d9db3addbad22ae7a",
+    "E1_rows": 810,
+    "E3_rows": 1215,
+    "interpretation_required": true
+  },
+  "primary_family": [
+    {
+      "hypothesis": "H1",
+      "experiment": "E1",
+      "kind": "same",
+      "a": "components_SOCDKPU",
+      "b": "components_SP",
+      "metric": "first_success",
+      "n_pairs": 135,
+      "n_clusters": 12,
+      "estimable": true,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "p_block_permutation": 1.0,
+      "small_cluster_warning": false,
+      "estimand": "equally weighted rule-family mean of paired differences",
+      "p_holm": 1.0,
+      "p_holm_primary_family": 1.0,
+      "expected_direction": "positive",
+      "evidence": "no_observed_difference"
+    },
+    {
+      "hypothesis": "H1",
+      "experiment": "E1",
+      "kind": "same",
+      "a": "components_SOCDKPU",
+      "b": "components_SP",
+      "metric": "recurrence",
+      "n_pairs": 135,
+      "n_clusters": 12,
+      "estimable": true,
+      "difference": -0.09490740740740743,
+      "ci95": [
+        -0.23611111111111113,
+        0.043981481481481476
+      ],
+      "p_block_permutation": 0.267578125,
+      "small_cluster_warning": false,
+      "estimand": "equally weighted rule-family mean of paired differences",
+      "p_holm": 1.0,
+      "p_holm_primary_family": 1.0,
+      "expected_direction": "negative",
+      "evidence": "inconclusive"
+    },
+    {
+      "hypothesis": "H4",
+      "experiment": "E3",
+      "kind": "same",
+      "a": "matched",
+      "b": "cycle",
+      "metric": "first_success",
+      "n_pairs": 135,
+      "n_clusters": 12,
+      "estimable": true,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "p_block_permutation": 1.0,
+      "small_cluster_warning": false,
+      "estimand": "equally weighted rule-family mean of paired differences",
+      "p_holm": 1.0,
+      "p_holm_primary_family": 1.0,
+      "expected_direction": "positive",
+      "evidence": "no_observed_difference"
+    },
+    {
+      "hypothesis": "H4",
+      "experiment": "E3",
+      "kind": "same",
+      "a": "matched",
+      "b": "cycle",
+      "metric": "recurrence",
+      "n_pairs": 135,
+      "n_clusters": 12,
+      "estimable": true,
+      "difference": -0.013888888888888895,
+      "ci95": [
+        -0.11342592592592592,
+        0.08796296296296295
+      ],
+      "p_block_permutation": 0.818359375,
+      "small_cluster_warning": false,
+      "estimand": "equally weighted rule-family mean of paired differences",
+      "p_holm": 1.0,
+      "p_holm_primary_family": 1.0,
+      "expected_direction": "negative",
+      "evidence": "inconclusive"
+    },
+    {
+      "hypothesis": "H4_validation",
+      "experiment": "E3",
+      "kind": "same",
+      "a": "matched",
+      "b": "random",
+      "metric": "first_success",
+      "n_pairs": 135,
+      "n_clusters": 12,
+      "estimable": true,
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "p_block_permutation": 1.0,
+      "small_cluster_warning": false,
+      "estimand": "equally weighted rule-family mean of paired differences",
+      "p_holm": 1.0,
+      "p_holm_primary_family": 1.0,
+      "expected_direction": "positive",
+      "evidence": "no_observed_difference"
+    },
+    {
+      "hypothesis": "H4_validation",
+      "experiment": "E3",
+      "kind": "same",
+      "a": "matched",
+      "b": "random",
+      "metric": "recurrence",
+      "n_pairs": 135,
+      "n_clusters": 12,
+      "estimable": true,
+      "difference": -0.032407407407407406,
+      "ci95": [
+        -0.12268518518518517,
+        0.05092592592592593
+      ],
+      "p_block_permutation": 0.5390625,
+      "small_cluster_warning": false,
+      "estimand": "equally weighted rule-family mean of paired differences",
+      "p_holm": 1.0,
+      "p_holm_primary_family": 1.0,
+      "expected_direction": "negative",
+      "evidence": "inconclusive"
+    }
+  ],
+  "hypotheses": {
+    "H1": {
+      "classification": "not_supported_by_this_confirmation",
+      "outcome_evidence": [
+        "no_observed_difference",
+        "inconclusive"
+      ]
+    },
+    "H4": {
+      "classification": "not_supported_by_this_confirmation",
+      "outcome_evidence": [
+        "no_observed_difference",
+        "inconclusive"
+      ]
+    },
+    "H4_validation": {
+      "classification": "not_supported_by_this_confirmation",
+      "outcome_evidence": [
+        "no_observed_difference",
+        "inconclusive"
+      ]
+    }
+  },
+  "same_condition_arm_rates": [
+    {
+      "experiment": "E1",
+      "method": "components_SOCDKPU",
+      "n_runs": 135,
+      "first_success": 0.0,
+      "recurrence": 0.7185185185185186,
+      "mean_total_tokens": 41861.32592592593
+    },
+    {
+      "experiment": "E1",
+      "method": "components_SP",
+      "n_runs": 135,
+      "first_success": 0.0,
+      "recurrence": 0.8222222222222222,
+      "mean_total_tokens": 22064.51851851852
+    },
+    {
+      "experiment": "E3",
+      "method": "cycle",
+      "n_runs": 135,
+      "first_success": 0.0,
+      "recurrence": 0.6888888888888889,
+      "mean_total_tokens": 25183.140740740742
+    },
+    {
+      "experiment": "E3",
+      "method": "matched",
+      "n_runs": 135,
+      "first_success": 0.0,
+      "recurrence": 0.6666666666666666,
+      "mean_total_tokens": 25390.11111111111
+    },
+    {
+      "experiment": "E3",
+      "method": "random",
+      "n_runs": 135,
+      "first_success": 0.0,
+      "recurrence": 0.7037037037037037,
+      "mean_total_tokens": 24779.007407407407
+    }
+  ],
+  "conditional_transfer": [
+    {
+      "experiment": "E1",
+      "kind": "transfer",
+      "a": "components_SOCDKPU",
+      "b": "components_SP",
+      "metric": "recurrence",
+      "n_pairs": 135,
+      "n_clusters": 12,
+      "estimable": true,
+      "difference": -0.21296296296296294,
+      "ci95": [
+        -0.28935185185185186,
+        -0.1365740740740741
+      ],
+      "p_block_permutation": 0.001953125,
+      "small_cluster_warning": false,
+      "estimand": "equally weighted rule-family mean of paired differences",
+      "p_holm": 0.009765625
+    },
+    {
+      "experiment": "E3",
+      "kind": "transfer",
+      "a": "matched",
+      "b": "cycle",
+      "metric": "recurrence",
+      "n_pairs": 135,
+      "n_clusters": 12,
+      "estimable": true,
+      "difference": -0.1875,
+      "ci95": [
+        -0.2777777777777778,
+        -0.09722222222222221
+      ],
+      "p_block_permutation": 0.0078125,
+      "small_cluster_warning": false,
+      "estimand": "equally weighted rule-family mean of paired differences",
+      "p_holm": 0.109375
+    },
+    {
+      "experiment": "E3",
+      "kind": "transfer",
+      "a": "matched",
+      "b": "random",
+      "metric": "recurrence",
+      "n_pairs": 135,
+      "n_clusters": 12,
+      "estimable": true,
+      "difference": -0.12268518518518519,
+      "ci95": [
+        -0.20601851851851852,
+        -0.04623842592592676
+      ],
+      "p_block_permutation": 0.03125,
+      "small_cluster_warning": false,
+      "estimand": "equally weighted rule-family mean of paired differences",
+      "p_holm": 0.375
+    }
+  ],
+  "analysis_manifests": {
+    "E1": {
+      "mock": false,
+      "rows": 810,
+      "cluster_definition": "aggregation-rule family across mechanisms, backends and seeds",
+      "cost_note": "construction plus actual API usage; report reads are included in execution, not double counted; source costs are separately in run records",
+      "caution": "small cluster intervals are descriptive; no automatic hypothesis acceptance"
+    },
+    "E3": {
+      "mock": false,
+      "rows": 1215,
+      "cluster_definition": "aggregation-rule family across mechanisms, backends and seeds",
+      "cost_note": "construction plus actual API usage; report reads are included in execution, not double counted; source costs are separately in run records",
+      "caution": "small cluster intervals are descriptive; no automatic hypothesis acceptance"
+    }
+  },
+  "scope_caution": "Qwen3-8B, frozen workflow tasks and budget only; no non-inferiority margin was registered."
+}

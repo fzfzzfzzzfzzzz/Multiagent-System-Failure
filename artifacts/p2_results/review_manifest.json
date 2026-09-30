@@ -1,0 +1,809 @@
+{
+  "complete": true,
+  "rows": 24,
+  "dataset_hash": "e563293f1e28cb83f813d7f67f3ca664da1addebb958922b8939fd3a90fcdeaf",
+  "design_hash": "589e7745a53182d28e1932e8593c92734240980a972e9311497e2ec1811ad232",
+  "review_protocol": "p2-reference-v1",
+  "source_counts": {
+    "F1": 6,
+    "F2": 6,
+    "F3": 6,
+    "F4": 6
+  },
+  "families": [
+    "capacity",
+    "coverage",
+    "dispatch",
+    "energy",
+    "penalty",
+    "storage"
+  ],
+  "records": [
+    {
+      "meta_id": "042ae2a6f1bbd663e541",
+      "mechanism": "F1",
+      "family_id": "workflow/capacity/F1",
+      "source_frozen_hash": "bce0f24600f79c1f270c542b7cb7903ca506de8d9d814f6d5d45c92bd8778a84",
+      "reviewed_frozen_hash": "f6a8ed79a31a898bce2d437851154f15ff462f19b99e4523b50e44d13d169e7a",
+      "auto_recipients": [
+        "analyst",
+        "executor"
+      ],
+      "reviewed_recipients": [
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0021"
+        ]
+      }
+    },
+    {
+      "meta_id": "25f8b084653617d1e405",
+      "mechanism": "F1",
+      "family_id": "workflow/coverage/F1",
+      "source_frozen_hash": "becd10047f884e889dbbe07f35b93d8005498e04ef7b95703ad092458738c8cd",
+      "reviewed_frozen_hash": "0009da46c0ee855861607590faa78fc34dbb40b23c25a558feff29405e54d0b5",
+      "auto_recipients": [
+        "coordinator",
+        "executor"
+      ],
+      "reviewed_recipients": [
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "2b668e273b98c894674a",
+      "mechanism": "F1",
+      "family_id": "workflow/energy/F1",
+      "source_frozen_hash": "29a5859c50d38c28f3ec4a45b3ccdf9112977457de1aeff9164b3306ce9faa7d",
+      "reviewed_frozen_hash": "d483bb953447bfa86cd464e65940b8bf5a0e93cf55504391e031ef3a1ea7457d",
+      "auto_recipients": [
+        "coordinator",
+        "provider"
+      ],
+      "reviewed_recipients": [
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "0929170251c4d40d7e20",
+      "mechanism": "F1",
+      "family_id": "workflow/penalty/F1",
+      "source_frozen_hash": "66786e07fdf63b70a8af3955e7f7cc22a12f794ef3b3c920ab888d41cff13c77",
+      "reviewed_frozen_hash": "c39c83f17f4741f42539df26787c6e6cb24a03880a624476932da4bc29089bea",
+      "auto_recipients": [
+        "provider"
+      ],
+      "reviewed_recipients": [
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0023"
+        ]
+      }
+    },
+    {
+      "meta_id": "09ee9367f1a3ee020716",
+      "mechanism": "F1",
+      "family_id": "workflow/storage/F1",
+      "source_frozen_hash": "f76efcb4f578fbb43c367f2d2ba762686549c1daa9261d486a6f9b8aa2ce0b75",
+      "reviewed_frozen_hash": "1d3d945bb8ce3f8bd0a828e2234c45ffacf41d2d455c4a73a42c7d699a5bf3d9",
+      "auto_recipients": [
+        "coordinator",
+        "executor"
+      ],
+      "reviewed_recipients": [
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "3853022bab19520e686a",
+      "mechanism": "F1",
+      "family_id": "workflow/coverage/F1",
+      "source_frozen_hash": "d3f7323b49a470ba761aaaeea7e9d2e3ab4dbea1fc3b787f651a83097d15be23",
+      "reviewed_frozen_hash": "9ad345a7eb60af030858c5c43a0ec9fcf1d309b9c4603688dbccae8286af5162",
+      "auto_recipients": [
+        "coordinator",
+        "provider",
+        "analyst"
+      ],
+      "reviewed_recipients": [
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0007"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0007"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "02a39a5320597b96fedd",
+      "mechanism": "F2",
+      "family_id": "workflow/capacity/F2",
+      "source_frozen_hash": "46fc807f46e434da16b4eff8d83d83a7281d03595641ff531c00b562bc253536",
+      "reviewed_frozen_hash": "b2e38c6b9d51b8dc2d36038a87a00ab653b2afd74fdad70e3983933e0cb0da0b",
+      "auto_recipients": [
+        "provider",
+        "executor"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0021"
+        ]
+      }
+    },
+    {
+      "meta_id": "2921c8d1b95f8cce6a99",
+      "mechanism": "F2",
+      "family_id": "workflow/coverage/F2",
+      "source_frozen_hash": "f28536fd1ab681da45760ec86ffeeccd6952463d9e7118f7c95b70749889c110",
+      "reviewed_frozen_hash": "5aea3f1e772f7d993b46d47b8461439f431f6963b7bcfa7e0f8745808b6378e9",
+      "auto_recipients": [
+        "analyst",
+        "provider"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "1fab7553a93a7929d564",
+      "mechanism": "F2",
+      "family_id": "workflow/dispatch/F2",
+      "source_frozen_hash": "2c7a050294fa56d9a30b865162c992ebc090424389b042621a430764cda049da",
+      "reviewed_frozen_hash": "09131ddff8f511b69cbc0452be2de3202171ab4542832daf9c9bc5d26c378e36",
+      "auto_recipients": [
+        "provider",
+        "coordinator"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "106a2be8c3b09c3744b6",
+      "mechanism": "F2",
+      "family_id": "workflow/energy/F2",
+      "source_frozen_hash": "2b67f6bc1822fa2a503e92eb3cdec3ca8bb0dad64fa23da0fb1f36fa5d85fdc3",
+      "reviewed_frozen_hash": "2dbf938f5c9ee880894e728d9d95b8482f2b4a797879f0918a72be46db8ac668",
+      "auto_recipients": [
+        "analyst",
+        "provider",
+        "executor"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "377691e3dbc218046453",
+      "mechanism": "F2",
+      "family_id": "workflow/capacity/F2",
+      "source_frozen_hash": "dd3f1d3cf3d02250f309e3081fc8229fac5e137032a14f2a5954c2e74665e5d6",
+      "reviewed_frozen_hash": "26b00576654f36e319c510498c4d540ec5e324de718e4d2b233d859fa3aaadab",
+      "auto_recipients": [
+        "analyst"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "56ef83093d6cfbf2d7ac",
+      "mechanism": "F2",
+      "family_id": "workflow/coverage/F2",
+      "source_frozen_hash": "a91a38c42c63794929747219d3a455748602ebe34dcdaefd1a86430876d136d8",
+      "reviewed_frozen_hash": "b4570c83dbd81d0e2d51bdda198e60b303d0081dfb24470f2c23cf0e2b40429d",
+      "auto_recipients": [
+        "analyst",
+        "provider"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "16ef7bc916003e74169e",
+      "mechanism": "F3",
+      "family_id": "workflow/capacity/F3",
+      "source_frozen_hash": "e36b3d38993d825ddbff0d9684793aa6ed7b6910d6b9c4a38a550ce9d78dd0c8",
+      "reviewed_frozen_hash": "b344b79221e376e08b1067152bcf3f18343c37528f0799664428429e09429942",
+      "auto_recipients": [
+        "coordinator",
+        "analyst",
+        "executor",
+        "provider"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "30919affcdad33f553a0",
+      "mechanism": "F3",
+      "family_id": "workflow/coverage/F3",
+      "source_frozen_hash": "e8c752d2b4e9e1afdbc5e359709d7ad03fe0ca935b46f74d523ee064b0bfb327",
+      "reviewed_frozen_hash": "03900d2ae9f1ec91aebefc5aa81d850189ca5c7afb6ef749216b070eca8152e5",
+      "auto_recipients": [
+        "coordinator",
+        "executor"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "0f3b157a54e7a958f30f",
+      "mechanism": "F3",
+      "family_id": "workflow/dispatch/F3",
+      "source_frozen_hash": "82f25c0cf63ec36829375b6d86b74f7dcbdb610c6b3c010f28f380c06051bb0d",
+      "reviewed_frozen_hash": "c1509847d9bbd8d127fd2886e620e75fe4e22670969000ec2cf8b0a7b24b736f",
+      "auto_recipients": [
+        "coordinator",
+        "executor"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "06496beef241512a18eb",
+      "mechanism": "F3",
+      "family_id": "workflow/energy/F3",
+      "source_frozen_hash": "5d75da46d9af85ba71cf81a2d716a5dca73a19e7a1a523c47ad5a507b50a24f8",
+      "reviewed_frozen_hash": "6cf586d88a3dae8170f4d3b4bef7767076069f79a07c37f408c6a8bfdb98be7a",
+      "auto_recipients": [
+        "provider",
+        "coordinator"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "089c614941a92a189165",
+      "mechanism": "F3",
+      "family_id": "workflow/penalty/F3",
+      "source_frozen_hash": "27004409f49931d9aeb238bc95699d16151dc21576b2c8666280b75e29fc21f5",
+      "reviewed_frozen_hash": "3f3e5ccc2b821ae9ceacbbfe072c728d889ed94fdf480792bb5e350122efa608",
+      "auto_recipients": [
+        "provider"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0008"
+        ]
+      }
+    },
+    {
+      "meta_id": "11cf04f57e7cf62693fc",
+      "mechanism": "F3",
+      "family_id": "workflow/storage/F3",
+      "source_frozen_hash": "a5df395bcc4ae1359c8ef9c1a78f066fddb3635120f7f1bc40a10237786a51d4",
+      "reviewed_frozen_hash": "282212fff90ea01fc1723dbd697eae03db6f5b82f6d9e3581b04e4298a5665f6",
+      "auto_recipients": [
+        "provider",
+        "analyst"
+      ],
+      "reviewed_recipients": [
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0007"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0007"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "2f5b8a5a1eb7b8386a10",
+      "mechanism": "F4",
+      "family_id": "workflow/capacity/F4",
+      "source_frozen_hash": "829319320f79cecf7173ace3a2fd3fd07afa5c234cb3ad4f17374aa1e3a1b278",
+      "reviewed_frozen_hash": "7d320bfd6d69d27d61f51441409e82003f1062cc4e12e42b1c83258ba69230e3",
+      "auto_recipients": [
+        "coordinator",
+        "executor"
+      ],
+      "reviewed_recipients": [
+        "coordinator",
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "13af5df9ee91b4ddddc5",
+      "mechanism": "F4",
+      "family_id": "workflow/coverage/F4",
+      "source_frozen_hash": "afb5297c7ae04fcc96d2906c2dcbc1593b952261d25479ab0d108a0e525cef3d",
+      "reviewed_frozen_hash": "51758c684686f20fd6da9402214c03d7d3fee101ff7a171357e426477a51a2d6",
+      "auto_recipients": [
+        "analyst",
+        "executor"
+      ],
+      "reviewed_recipients": [
+        "coordinator",
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "35c569b002cf117953b8",
+      "mechanism": "F4",
+      "family_id": "workflow/dispatch/F4",
+      "source_frozen_hash": "8fd61a9929da9320505e5fa96f64da97080c36ad9ff5920903f23ce8be07ece0",
+      "reviewed_frozen_hash": "3c29e19b56475eac7a0ad2469ce6d4dc7015f7683cf4b45c930eb71cb85119e0",
+      "auto_recipients": [
+        "coordinator"
+      ],
+      "reviewed_recipients": [
+        "coordinator",
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0011"
+        ]
+      }
+    },
+    {
+      "meta_id": "48c3a38c076176e80033",
+      "mechanism": "F4",
+      "family_id": "workflow/energy/F4",
+      "source_frozen_hash": "48a75a6912a41dd2f6d5346fc5b2ee92cac79180a585619b0cbe348368dba8ab",
+      "reviewed_frozen_hash": "ac9cea7c3c8b36b6255a9ca8f41fd1c6b3bdc6013c04ebea84b735c1a4dce8ec",
+      "auto_recipients": [
+        "provider",
+        "executor"
+      ],
+      "reviewed_recipients": [
+        "coordinator",
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0019"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0019"
+        ],
+        "U": [
+          "e0023"
+        ]
+      }
+    },
+    {
+      "meta_id": "05105e2b2401f4b85359",
+      "mechanism": "F4",
+      "family_id": "workflow/penalty/F4",
+      "source_frozen_hash": "45b5e4636ee1c52334df71e275441152530291b9e16900db353257b507f0f09e",
+      "reviewed_frozen_hash": "a898e2ba20a757c427e338d3f4b63149e1f1158448d2db14c39be767de1c3fcb",
+      "auto_recipients": [
+        "provider"
+      ],
+      "reviewed_recipients": [
+        "coordinator",
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0008"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0008"
+        ],
+        "U": [
+          "e0023"
+        ]
+      }
+    },
+    {
+      "meta_id": "03219101985c4a812f33",
+      "mechanism": "F4",
+      "family_id": "workflow/storage/F4",
+      "source_frozen_hash": "647d82d50c92cd13cfe850f0ccac7c9f218c9a74adec0eed0b92085fc82ef014",
+      "reviewed_frozen_hash": "6d88761ab79e83672ecf4c873628f6da00a2bfd5482bc1f3d9c7f16acea2738b",
+      "auto_recipients": [
+        "coordinator",
+        "executor"
+      ],
+      "reviewed_recipients": [
+        "coordinator",
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "review_refs": {
+        "C": [
+          "e0019"
+        ],
+        "D": [
+          "e0001"
+        ],
+        "K": [
+          "e0001"
+        ],
+        "P": [
+          "e0019"
+        ],
+        "U": [
+          "e0023"
+        ]
+      }
+    }
+  ],
+  "target_outcomes_used": false
+}

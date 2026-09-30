@@ -1,0 +1,676 @@
+{
+  "checked_at": 1790735794.3234406,
+  "unit": "MainPID=0\nResult=success\nActiveState=inactive\nSubState=dead\n",
+  "status": {
+    "started_at": 1790730737.1915305,
+    "supervisor_pid": 1844475,
+    "state": "completed",
+    "gpu_before": [
+      {
+        "gpu": 4,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      },
+      {
+        "gpu": 5,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      }
+    ],
+    "server_pid": 1844478,
+    "client_pid": 1845663,
+    "model_ready_at": 1790730801.2947502,
+    "checked_at": 1790733451.7910147,
+    "heartbeat_age_seconds": 0.13,
+    "client_exit_code": 0,
+    "finished_at": 1790733460.9957616,
+    "cleanup_requested": true,
+    "gpu_after": [
+      {
+        "gpu": 4,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      },
+      {
+        "gpu": 5,
+        "used_mb": 333,
+        "util": 0,
+        "compute_pids": []
+      }
+    ],
+    "owned_gpu_pids_remaining": [],
+    "foreign_gpu_pids_after": [],
+    "gpu_released": true
+  },
+  "heartbeat": {
+    "at": 1790733454.5367808,
+    "pid": 1845663,
+    "event": "p2_completed",
+    "rows": 192
+  },
+  "progress": {
+    "rows": 192,
+    "episodes": 192
+  },
+  "design": {
+    "stage": "P2-development-diagnostic",
+    "status": "exploratory; cannot revise H1-H4",
+    "dataset_hash": "e563293f1e28cb83f813d7f67f3ca664da1addebb958922b8939fd3a90fcdeaf",
+    "selection": "six qualified workflow source failures per F1-F4, round-robin over source rule family; target outcomes not read",
+    "sources": [
+      [
+        "042ae2a6f1bbd663e541",
+        "bce0f24600f79c1f270c542b7cb7903ca506de8d9d814f6d5d45c92bd8778a84"
+      ],
+      [
+        "25f8b084653617d1e405",
+        "becd10047f884e889dbbe07f35b93d8005498e04ef7b95703ad092458738c8cd"
+      ],
+      [
+        "2b668e273b98c894674a",
+        "29a5859c50d38c28f3ec4a45b3ccdf9112977457de1aeff9164b3306ce9faa7d"
+      ],
+      [
+        "0929170251c4d40d7e20",
+        "66786e07fdf63b70a8af3955e7f7cc22a12f794ef3b3c920ab888d41cff13c77"
+      ],
+      [
+        "09ee9367f1a3ee020716",
+        "f76efcb4f578fbb43c367f2d2ba762686549c1daa9261d486a6f9b8aa2ce0b75"
+      ],
+      [
+        "3853022bab19520e686a",
+        "d3f7323b49a470ba761aaaeea7e9d2e3ab4dbea1fc3b787f651a83097d15be23"
+      ],
+      [
+        "02a39a5320597b96fedd",
+        "46fc807f46e434da16b4eff8d83d83a7281d03595641ff531c00b562bc253536"
+      ],
+      [
+        "2921c8d1b95f8cce6a99",
+        "f28536fd1ab681da45760ec86ffeeccd6952463d9e7118f7c95b70749889c110"
+      ],
+      [
+        "1fab7553a93a7929d564",
+        "2c7a050294fa56d9a30b865162c992ebc090424389b042621a430764cda049da"
+      ],
+      [
+        "106a2be8c3b09c3744b6",
+        "2b67f6bc1822fa2a503e92eb3cdec3ca8bb0dad64fa23da0fb1f36fa5d85fdc3"
+      ],
+      [
+        "377691e3dbc218046453",
+        "dd3f1d3cf3d02250f309e3081fc8229fac5e137032a14f2a5954c2e74665e5d6"
+      ],
+      [
+        "56ef83093d6cfbf2d7ac",
+        "a91a38c42c63794929747219d3a455748602ebe34dcdaefd1a86430876d136d8"
+      ],
+      [
+        "16ef7bc916003e74169e",
+        "e36b3d38993d825ddbff0d9684793aa6ed7b6910d6b9c4a38a550ce9d78dd0c8"
+      ],
+      [
+        "30919affcdad33f553a0",
+        "e8c752d2b4e9e1afdbc5e359709d7ad03fe0ca935b46f74d523ee064b0bfb327"
+      ],
+      [
+        "0f3b157a54e7a958f30f",
+        "82f25c0cf63ec36829375b6d86b74f7dcbdb610c6b3c010f28f380c06051bb0d"
+      ],
+      [
+        "06496beef241512a18eb",
+        "5d75da46d9af85ba71cf81a2d716a5dca73a19e7a1a523c47ad5a507b50a24f8"
+      ],
+      [
+        "089c614941a92a189165",
+        "27004409f49931d9aeb238bc95699d16151dc21576b2c8666280b75e29fc21f5"
+      ],
+      [
+        "11cf04f57e7cf62693fc",
+        "a5df395bcc4ae1359c8ef9c1a78f066fddb3635120f7f1bc40a10237786a51d4"
+      ],
+      [
+        "2f5b8a5a1eb7b8386a10",
+        "829319320f79cecf7173ace3a2fd3fd07afa5c234cb3ad4f17374aa1e3a1b278"
+      ],
+      [
+        "13af5df9ee91b4ddddc5",
+        "afb5297c7ae04fcc96d2906c2dcbc1593b952261d25479ab0d108a0e525cef3d"
+      ],
+      [
+        "35c569b002cf117953b8",
+        "8fd61a9929da9320505e5fa96f64da97080c36ad9ff5920903f23ce8be07ece0"
+      ],
+      [
+        "48c3a38c076176e80033",
+        "48a75a6912a41dd2f6d5346fc5b2ee92cac79180a585619b0cbe348368dba8ab"
+      ],
+      [
+        "05105e2b2401f4b85359",
+        "45b5e4636ee1c52334df71e275441152530291b9e16900db353257b507f0f09e"
+      ],
+      [
+        "03219101985c4a812f33",
+        "647d82d50c92cd13cfe850f0ccac7c9f218c9a74adec0eed0b92085fc82ef014"
+      ]
+    ],
+    "target_kinds": [
+      "same",
+      "transfer"
+    ],
+    "seed": 101,
+    "rounds": 2,
+    "turns_per_role": 3,
+    "arms": [
+      {
+        "name": "model_auto",
+        "content": "model",
+        "routing": "auto"
+      },
+      {
+        "name": "reviewed_auto",
+        "content": "reviewed",
+        "routing": "auto"
+      },
+      {
+        "name": "model_reviewed_route",
+        "content": "model",
+        "routing": "reviewed"
+      },
+      {
+        "name": "reviewed_reviewed_route",
+        "content": "reviewed",
+        "routing": "reviewed"
+      }
+    ],
+    "content": "model-generated frozen source report versus deterministic protocol-reviewed source report",
+    "routing": "model-generated related_roles versus mechanism-specific predeclared semantic roles",
+    "review_protocol": "p2-reference-v1",
+    "reviewed_recipients": {
+      "F1": [
+        "analyst",
+        "executor"
+      ],
+      "F2": [
+        "provider",
+        "analyst"
+      ],
+      "F3": [
+        "provider",
+        "analyst",
+        "executor"
+      ],
+      "F4": [
+        "coordinator",
+        "provider",
+        "analyst",
+        "executor"
+      ]
+    },
+    "report_components": "SOCDKPU (V remains source-empty)",
+    "report_budget": "512 tokens per recipient; identical fitted atom set for identical model/content",
+    "role_views": false,
+    "forwarding": false,
+    "model": "qwen3_8b",
+    "models_hash": "3d298fa0bb6ba4eb04b153e6c71be0758ab87873dcabfd9b5f4ffaba85b7fbaa",
+    "teamlearn_code_hash": "778c47bbd9e92cf452111f45b278b797078247c85ac8b22ddd099ccc4335997a",
+    "job_code_hash": "fa04e000e4c6b0d23d758ba36535b499ad316e429db2d2355d54a52518e2bf30"
+  },
+  "summary": {
+    "complete": true,
+    "rows": 192,
+    "rates": [
+      {
+        "kind": "same",
+        "mechanism": "F1",
+        "method": "model_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.6666666666666666,
+        "recurrence": 0.5
+      },
+      {
+        "kind": "same",
+        "mechanism": "F1",
+        "method": "model_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.6666666666666666,
+        "recurrence": 0.3333333333333333
+      },
+      {
+        "kind": "same",
+        "mechanism": "F1",
+        "method": "reviewed_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.16666666666666666,
+        "recurrence": 0.8333333333333334
+      },
+      {
+        "kind": "same",
+        "mechanism": "F1",
+        "method": "reviewed_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.6666666666666666,
+        "recurrence": 0.5
+      },
+      {
+        "kind": "same",
+        "mechanism": "F2",
+        "method": "model_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.5,
+        "recurrence": 0.5
+      },
+      {
+        "kind": "same",
+        "mechanism": "F2",
+        "method": "model_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.16666666666666666,
+        "recurrence": 0.8333333333333334
+      },
+      {
+        "kind": "same",
+        "mechanism": "F2",
+        "method": "reviewed_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.16666666666666666,
+        "recurrence": 0.8333333333333334
+      },
+      {
+        "kind": "same",
+        "mechanism": "F2",
+        "method": "reviewed_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "same",
+        "mechanism": "F3",
+        "method": "model_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.3333333333333333,
+        "recurrence": 0.8333333333333334
+      },
+      {
+        "kind": "same",
+        "mechanism": "F3",
+        "method": "model_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "same",
+        "mechanism": "F3",
+        "method": "reviewed_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.5,
+        "recurrence": 0.5
+      },
+      {
+        "kind": "same",
+        "mechanism": "F3",
+        "method": "reviewed_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.3333333333333333,
+        "recurrence": 0.6666666666666666
+      },
+      {
+        "kind": "same",
+        "mechanism": "F4",
+        "method": "model_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.16666666666666666,
+        "recurrence": 0.8333333333333334
+      },
+      {
+        "kind": "same",
+        "mechanism": "F4",
+        "method": "model_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.16666666666666666,
+        "recurrence": 0.8333333333333334
+      },
+      {
+        "kind": "same",
+        "mechanism": "F4",
+        "method": "reviewed_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.3333333333333333,
+        "recurrence": 0.6666666666666666
+      },
+      {
+        "kind": "same",
+        "mechanism": "F4",
+        "method": "reviewed_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.16666666666666666,
+        "recurrence": 0.8333333333333334
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F1",
+        "method": "model_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.16666666666666666,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F1",
+        "method": "model_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.16666666666666666,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F1",
+        "method": "reviewed_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F1",
+        "method": "reviewed_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F2",
+        "method": "model_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F2",
+        "method": "model_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F2",
+        "method": "reviewed_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.6666666666666666,
+        "recurrence": 0.3333333333333333
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F2",
+        "method": "reviewed_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.8333333333333334,
+        "recurrence": 0.16666666666666666
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F3",
+        "method": "model_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F3",
+        "method": "model_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F3",
+        "method": "reviewed_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F3",
+        "method": "reviewed_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F4",
+        "method": "model_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.16666666666666666,
+        "recurrence": 0.8333333333333334
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F4",
+        "method": "model_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.16666666666666666,
+        "recurrence": 0.8333333333333334
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F4",
+        "method": "reviewed_auto",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      },
+      {
+        "kind": "transfer",
+        "mechanism": "F4",
+        "method": "reviewed_reviewed_route",
+        "n": 6,
+        "first_success": 0.0,
+        "final_success": 0.0,
+        "abstention": 0.0,
+        "recurrence": 1.0
+      }
+    ],
+    "factor_effects": [
+      {
+        "metric": "first_success",
+        "n_paired": 48,
+        "content": 0.0,
+        "routing": 0.0,
+        "interaction": 0.0
+      },
+      {
+        "metric": "final_success",
+        "n_paired": 48,
+        "content": 0.0,
+        "routing": 0.0,
+        "interaction": 0.0
+      },
+      {
+        "metric": "abstained",
+        "n_paired": 48,
+        "content": 0.03125,
+        "routing": -0.03125,
+        "interaction": 0.10416666666666667
+      },
+      {
+        "metric": "recurrence",
+        "n_paired": 48,
+        "content": -0.0625,
+        "routing": 0.020833333333333332,
+        "interaction": -0.041666666666666664
+      }
+    ],
+    "interpretation": "exploratory development diagnostic; reference reports are deterministic protocol interventions, not human annotations"
+  },
+  "experiment_tail": [
+    "P2 182/192 model_auto transfer F4: first=False recurrence=True",
+    "P2 183/192 model_reviewed_route transfer F4: first=False recurrence=True",
+    "P2 184/192 model_auto same F3: first=False recurrence=True",
+    "P2 185/192 reviewed_reviewed_route same F4: first=False recurrence=True",
+    "P2 186/192 model_reviewed_route transfer F2: first=False recurrence=True",
+    "P2 187/192 model_auto transfer F4: first=False recurrence=False",
+    "P2 188/192 model_auto same F2: first=False recurrence=False",
+    "P2 189/192 model_reviewed_route same F4: first=False recurrence=True",
+    "P2 190/192 reviewed_auto same F4: first=False recurrence=True",
+    "P2 191/192 reviewed_reviewed_route transfer F3: first=False recurrence=True",
+    "P2 192/192 model_reviewed_route transfer F3: first=False recurrence=True",
+    "{'complete': True, 'rows': 192, 'rates': [{'kind': 'same', 'mechanism': 'F1', 'method': 'model_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.6666666666666666, 'recurrence': 0.5}, {'kind': 'same', 'mechanism': 'F1', 'method': 'model_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.6666666666666666, 'recurrence': 0.3333333333333333}, {'kind': 'same', 'mechanism': 'F1', 'method': 'reviewed_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.16666666666666666, 'recurrence': 0.8333333333333334}, {'kind': 'same', 'mechanism': 'F1', 'method': 'reviewed_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.6666666666666666, 'recurrence': 0.5}, {'kind': 'same', 'mechanism': 'F2', 'method': 'model_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.5, 'recurrence': 0.5}, {'kind': 'same', 'mechanism': 'F2', 'method': 'model_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.16666666666666666, 'recurrence': 0.8333333333333334}, {'kind': 'same', 'mechanism': 'F2', 'method': 'reviewed_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.16666666666666666, 'recurrence': 0.8333333333333334}, {'kind': 'same', 'mechanism': 'F2', 'method': 'reviewed_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}, {'kind': 'same', 'mechanism': 'F3', 'method': 'model_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.3333333333333333, 'recurrence': 0.8333333333333334}, {'kind': 'same', 'mechanism': 'F3', 'method': 'model_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}, {'kind': 'same', 'mechanism': 'F3', 'method': 'reviewed_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.5, 'recurrence': 0.5}, {'kind': 'same', 'mechanism': 'F3', 'method': 'reviewed_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.3333333333333333, 'recurrence': 0.6666666666666666}, {'kind': 'same', 'mechanism': 'F4', 'method': 'model_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.16666666666666666, 'recurrence': 0.8333333333333334}, {'kind': 'same', 'mechanism': 'F4', 'method': 'model_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.16666666666666666, 'recurrence': 0.8333333333333334}, {'kind': 'same', 'mechanism': 'F4', 'method': 'reviewed_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.3333333333333333, 'recurrence': 0.6666666666666666}, {'kind': 'same', 'mechanism': 'F4', 'method': 'reviewed_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.16666666666666666, 'recurrence': 0.8333333333333334}, {'kind': 'transfer', 'mechanism': 'F1', 'method': 'model_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.16666666666666666, 'recurrence': 1.0}, {'kind': 'transfer', 'mechanism': 'F1', 'method': 'model_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.16666666666666666, 'recurrence': 1.0}, {'kind': 'transfer', 'mechanism': 'F1', 'method': 'reviewed_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}, {'kind': 'transfer', 'mechanism': 'F1', 'method': 'reviewed_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}, {'kind': 'transfer', 'mechanism': 'F2', 'method': 'model_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}, {'kind': 'transfer', 'mechanism': 'F2', 'method': 'model_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}, {'kind': 'transfer', 'mechanism': 'F2', 'method': 'reviewed_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.6666666666666666, 'recurrence': 0.3333333333333333}, {'kind': 'transfer', 'mechanism': 'F2', 'method': 'reviewed_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.8333333333333334, 'recurrence': 0.16666666666666666}, {'kind': 'transfer', 'mechanism': 'F3', 'method': 'model_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}, {'kind': 'transfer', 'mechanism': 'F3', 'method': 'model_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}, {'kind': 'transfer', 'mechanism': 'F3', 'method': 'reviewed_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}, {'kind': 'transfer', 'mechanism': 'F3', 'method': 'reviewed_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}, {'kind': 'transfer', 'mechanism': 'F4', 'method': 'model_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.16666666666666666, 'recurrence': 0.8333333333333334}, {'kind': 'transfer', 'mechanism': 'F4', 'method': 'model_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.16666666666666666, 'recurrence': 0.8333333333333334}, {'kind': 'transfer', 'mechanism': 'F4', 'method': 'reviewed_auto', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}, {'kind': 'transfer', 'mechanism': 'F4', 'method': 'reviewed_reviewed_route', 'n': 6, 'first_success': 0.0, 'final_success': 0.0, 'abstention': 0.0, 'recurrence': 1.0}], 'factor_effects': [{'metric': 'first_success', 'n_paired': 48, 'content': 0.0, 'routing': 0.0, 'interaction': 0.0}, {'metric': 'final_success', 'n_paired': 48, 'content': 0.0, 'routing': 0.0, 'interaction': 0.0}, {'metric': 'abstained', 'n_paired': 48, 'content': 0.03125, 'routing': -0.03125, 'interaction': 0.10416666666666667}, {'metric': 'recurrence', 'n_paired': 48, 'content': -0.0625, 'routing': 0.020833333333333332, 'interaction': -0.041666666666666664}], 'interpretation': 'exploratory development diagnostic; reference reports are deterministic protocol interventions, not human annotations'}"
+  ],
+  "model_tail": [
+    "INFO:     127.0.0.1:59302 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:59302 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO 09-30 09:57:31 [loggers.py:111] Engine 000: Avg prompt throughput: 1793.5 tokens/s, Avg generation throughput: 30.7 tokens/s, Running: 1 reqs, Waiting: 0 reqs, GPU KV cache usage: 0.5%, Prefix cache hit rate: 82.7%",
+    "INFO:     127.0.0.1:59298 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:59298 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:59298 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:59300 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO:     127.0.0.1:59300 - \"POST /v1/chat/completions HTTP/1.1\" 200 OK",
+    "INFO 09-30 09:57:36 [launcher.py:79] Shutting down FastAPI HTTP server.",
+    "INFO:     Shutting down",
+    "INFO:     Waiting for application shutdown.",
+    "INFO:     Application shutdown complete."
+  ],
+  "gpus": [
+    {
+      "gpu": 0,
+      "used_mb": 22613,
+      "util": 94,
+      "compute_pids": [
+        1075873,
+        1076119
+      ]
+    },
+    {
+      "gpu": 1,
+      "used_mb": 22290,
+      "util": 94,
+      "compute_pids": [
+        1076120
+      ]
+    },
+    {
+      "gpu": 2,
+      "used_mb": 22290,
+      "util": 94,
+      "compute_pids": [
+        1076121
+      ]
+    },
+    {
+      "gpu": 3,
+      "used_mb": 22290,
+      "util": 94,
+      "compute_pids": [
+        1076122
+      ]
+    },
+    {
+      "gpu": 4,
+      "used_mb": 22551,
+      "util": 94,
+      "compute_pids": [
+        1880253,
+        1880525
+      ]
+    },
+    {
+      "gpu": 5,
+      "used_mb": 22228,
+      "util": 94,
+      "compute_pids": [
+        1880526
+      ]
+    },
+    {
+      "gpu": 6,
+      "used_mb": 22230,
+      "util": 94,
+      "compute_pids": [
+        1880527
+      ]
+    },
+    {
+      "gpu": 7,
+      "used_mb": 22228,
+      "util": 94,
+      "compute_pids": [
+        1880528
+      ]
+    }
+  ]
+}

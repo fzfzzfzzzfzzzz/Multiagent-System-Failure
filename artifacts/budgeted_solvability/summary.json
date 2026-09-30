@@ -1,0 +1,35 @@
+{
+  "purpose": "formal-interface feasibility witness; not a model baseline or research result",
+  "split": "dev",
+  "rounds": 2,
+  "runs": 432,
+  "by_turn_budget": {
+    "3": {
+      "runs": 144,
+      "first_success": 144,
+      "final_success": 144,
+      "recurrence": 0,
+      "abstained": 0,
+      "tool_errors": 0,
+      "budget_ceiling_runs": 144
+    },
+    "5": {
+      "runs": 144,
+      "first_success": 144,
+      "final_success": 144,
+      "recurrence": 0,
+      "abstained": 0,
+      "tool_errors": 0,
+      "budget_ceiling_runs": 48
+    },
+    "7": {
+      "runs": 144,
+      "first_success": 144,
+      "final_success": 144,
+      "recurrence": 0,
+      "abstained": 0,
+      "tool_errors": 0,
+      "budget_ceiling_runs": 0
+    }
+  }
+}

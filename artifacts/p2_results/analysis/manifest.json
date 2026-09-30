@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "exploratory": true,
+  "rows": 192,
+  "missing_episodes": [],
+  "source_results_sha256": "38fa565962cc9fd83b2f1f8f4b48de5f355fd941260229a5b6e358c4c5b9d44d",
+  "cluster": "source aggregation-rule family",
+  "warning": "cannot revise preregistered H1-H4"
+}

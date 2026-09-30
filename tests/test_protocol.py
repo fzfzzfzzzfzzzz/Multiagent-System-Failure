@@ -30,6 +30,10 @@ def test_permutation_has_same_multiset_and_budget():
     assert a["report_multiset_hash"]==b["report_multiset_hash"]
     assert matched!=permuted
     assert a["report_tokens"]<=2048
+    assert b["atomic_ids"]==b["atomic_ids_delivered"]
+    for source,destination in b["permutation"].items():
+        assert b["atomic_ids_delivered"][destination]==b["atomic_ids_before_routing"][source]
+    assert b["atomic_ids_before_routing"]!=b["atomic_ids_delivered"]
 
 
 def test_train_only_policy_and_no_hidden_update():

@@ -1,0 +1,357 @@
+{
+  "complete": true,
+  "rows": 192,
+  "rates": [
+    {
+      "kind": "same",
+      "mechanism": "F1",
+      "method": "model_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.6666666666666666,
+      "recurrence": 0.5
+    },
+    {
+      "kind": "same",
+      "mechanism": "F1",
+      "method": "model_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.6666666666666666,
+      "recurrence": 0.3333333333333333
+    },
+    {
+      "kind": "same",
+      "mechanism": "F1",
+      "method": "reviewed_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.16666666666666666,
+      "recurrence": 0.8333333333333334
+    },
+    {
+      "kind": "same",
+      "mechanism": "F1",
+      "method": "reviewed_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.6666666666666666,
+      "recurrence": 0.5
+    },
+    {
+      "kind": "same",
+      "mechanism": "F2",
+      "method": "model_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.5,
+      "recurrence": 0.5
+    },
+    {
+      "kind": "same",
+      "mechanism": "F2",
+      "method": "model_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.16666666666666666,
+      "recurrence": 0.8333333333333334
+    },
+    {
+      "kind": "same",
+      "mechanism": "F2",
+      "method": "reviewed_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.16666666666666666,
+      "recurrence": 0.8333333333333334
+    },
+    {
+      "kind": "same",
+      "mechanism": "F2",
+      "method": "reviewed_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "same",
+      "mechanism": "F3",
+      "method": "model_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.3333333333333333,
+      "recurrence": 0.8333333333333334
+    },
+    {
+      "kind": "same",
+      "mechanism": "F3",
+      "method": "model_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "same",
+      "mechanism": "F3",
+      "method": "reviewed_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.5,
+      "recurrence": 0.5
+    },
+    {
+      "kind": "same",
+      "mechanism": "F3",
+      "method": "reviewed_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.3333333333333333,
+      "recurrence": 0.6666666666666666
+    },
+    {
+      "kind": "same",
+      "mechanism": "F4",
+      "method": "model_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.16666666666666666,
+      "recurrence": 0.8333333333333334
+    },
+    {
+      "kind": "same",
+      "mechanism": "F4",
+      "method": "model_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.16666666666666666,
+      "recurrence": 0.8333333333333334
+    },
+    {
+      "kind": "same",
+      "mechanism": "F4",
+      "method": "reviewed_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.3333333333333333,
+      "recurrence": 0.6666666666666666
+    },
+    {
+      "kind": "same",
+      "mechanism": "F4",
+      "method": "reviewed_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.16666666666666666,
+      "recurrence": 0.8333333333333334
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F1",
+      "method": "model_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.16666666666666666,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F1",
+      "method": "model_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.16666666666666666,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F1",
+      "method": "reviewed_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F1",
+      "method": "reviewed_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F2",
+      "method": "model_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F2",
+      "method": "model_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F2",
+      "method": "reviewed_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.6666666666666666,
+      "recurrence": 0.3333333333333333
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F2",
+      "method": "reviewed_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.8333333333333334,
+      "recurrence": 0.16666666666666666
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F3",
+      "method": "model_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F3",
+      "method": "model_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F3",
+      "method": "reviewed_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F3",
+      "method": "reviewed_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F4",
+      "method": "model_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.16666666666666666,
+      "recurrence": 0.8333333333333334
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F4",
+      "method": "model_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.16666666666666666,
+      "recurrence": 0.8333333333333334
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F4",
+      "method": "reviewed_auto",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    },
+    {
+      "kind": "transfer",
+      "mechanism": "F4",
+      "method": "reviewed_reviewed_route",
+      "n": 6,
+      "first_success": 0.0,
+      "final_success": 0.0,
+      "abstention": 0.0,
+      "recurrence": 1.0
+    }
+  ],
+  "factor_effects": [
+    {
+      "metric": "first_success",
+      "n_paired": 48,
+      "content": 0.0,
+      "routing": 0.0,
+      "interaction": 0.0
+    },
+    {
+      "metric": "final_success",
+      "n_paired": 48,
+      "content": 0.0,
+      "routing": 0.0,
+      "interaction": 0.0
+    },
+    {
+      "metric": "abstained",
+      "n_paired": 48,
+      "content": 0.03125,
+      "routing": -0.03125,
+      "interaction": 0.10416666666666667
+    },
+    {
+      "metric": "recurrence",
+      "n_paired": 48,
+      "content": -0.0625,
+      "routing": 0.020833333333333332,
+      "interaction": -0.041666666666666664
+    }
+  ],
+  "interpretation": "exploratory development diagnostic; reference reports are deterministic protocol interventions, not human annotations"
+}

@@ -1,0 +1,21 @@
+{
+  "outcomes": {
+    "target_recurrence_failure": 147,
+    "abstained": 43,
+    "other_failure_without_target_recurrence": 2
+  },
+  "first_failed_checks": {
+    "F1": 142,
+    "F4": 102,
+    "F3": 41,
+    "F2": 32
+  },
+  "first_tool_errors": {
+    "[\"analyst\", \"allocate\", \"amount not offered by local service\"]": 63,
+    "[\"provider\", \"confirm\", \"publish first\"]": 14,
+    "[\"coordinator\", \"message\", \"to must be a semantic role\"]": 3,
+    "[\"analyst\", \"calculate\", \"publish an artifact first\"]": 20,
+    "[\"provider\", \"allocate\", \"amount not offered by local service\"]": 6,
+    "[\"executor\", \"commit\", \"publish and calculate before committing\"]": 6
+  }
+}

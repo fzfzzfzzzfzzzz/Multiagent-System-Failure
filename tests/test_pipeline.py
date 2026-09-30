@@ -81,3 +81,13 @@ def test_no_hidden_target_fields_in_real_actor_prompts(tmp_path):
     prompts=json.dumps([t["messages"] for t in episode["transcripts"]])
     for forbidden in ("commit_checks","consumption_violations","opportunity","signature","mechanism","updated_records"):
         assert forbidden not in prompts
+
+
+def test_delivery_audit_distinguishes_delivery_from_model_request(tmp_path):
+    task=make_task("dev",0,"F1",1)
+    path=tmp_path/"task.json";write_json(path,task)
+    models={r:MockModel() for r in ROLES}
+    episode=run_team(path,models,reports={"analyst":"historical report"},rounds=1,turns_per_role=1)
+    assert episode["deliveries"]==[{"role":"analyst","agent_id":episode["agents"]["analyst"],"state":"delivered","at":"before_task",
+                                    "report_hash":episode["deliveries"][0]["report_hash"],"tokens":models["analyst"].tokens("historical report"),
+                                    "entered_model_request_at":{"round":0,"turn":0}}]

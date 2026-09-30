@@ -1,0 +1,310 @@
+experiment,mechanism,kind,method,error_type,role,tool,reason,count
+E1,F1,reversal,components_SOCDKPU,tool_error,analyst,allocate,amount not offered by local service,4
+E1,F1,reversal,components_SOCDKPU,tool_error,analyst,calculate,'value',2
+E1,F1,reversal,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,17
+E1,F1,reversal,components_SOCDKPU,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,10
+E1,F1,reversal,components_SOCDKPU,tool_error,provider,publish,'version',2
+E1,F1,reversal,components_SP,tool_error,analyst,allocate,'amount',6
+E1,F1,reversal,components_SP,tool_error,analyst,allocate,amount not offered by local service,15
+E1,F1,reversal,components_SP,tool_error,provider,allocate,'amount',3
+E1,F1,reversal,components_SP,tool_error,provider,allocate,amount not offered by local service,2
+E1,F1,reversal,components_SP,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,10
+E1,F1,same,components_SOCDKPU,target_recurrence,analyst,calculate,incorrect_transformation_detected_at_grading,29
+E1,F1,same,components_SOCDKPU,tool_error,analyst,allocate,amount not offered by local service,6
+E1,F1,same,components_SOCDKPU,tool_error,analyst,calculate,'value',5
+E1,F1,same,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,13
+E1,F1,same,components_SOCDKPU,tool_error,provider,confirm,publish first,6
+E1,F1,same,components_SOCDKPU,tool_error,provider,publish,'version',2
+E1,F1,same,components_SP,target_recurrence,analyst,calculate,incorrect_transformation_detected_at_grading,30
+E1,F1,same,components_SP,tool_error,analyst,allocate,'amount',6
+E1,F1,same,components_SP,tool_error,analyst,allocate,amount not offered by local service,13
+E1,F1,same,components_SP,tool_error,provider,allocate,'amount',3
+E1,F1,same,components_SP,tool_error,provider,allocate,amount not offered by local service,5
+E1,F1,transfer,components_SOCDKPU,target_recurrence,analyst,calculate,incorrect_transformation_detected_at_grading,34
+E1,F1,transfer,components_SOCDKPU,tool_error,analyst,allocate,amount not offered by local service,3
+E1,F1,transfer,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,24
+E1,F1,transfer,components_SOCDKPU,tool_error,provider,publish,'version',3
+E1,F1,transfer,components_SP,target_recurrence,analyst,calculate,incorrect_transformation_detected_at_grading,36
+E1,F1,transfer,components_SP,tool_error,analyst,allocate,amount not offered by local service,15
+E1,F2,reversal,components_SOCDKPU,tool_error,analyst,calculate,'value',2
+E1,F2,reversal,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,16
+E1,F2,reversal,components_SOCDKPU,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,14
+E1,F2,reversal,components_SP,tool_error,analyst,allocate,'amount',2
+E1,F2,reversal,components_SP,tool_error,analyst,allocate,amount not offered by local service,4
+E1,F2,reversal,components_SP,tool_error,analyst,verify,unknown evidence source,2
+E1,F2,reversal,components_SP,tool_error,executor,commit,publish and calculate before committing,1
+E1,F2,reversal,components_SP,tool_error,provider,allocate,'amount',2
+E1,F2,reversal,components_SP,tool_error,provider,allocate,amount not offered by local service,2
+E1,F2,reversal,components_SP,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,16
+E1,F2,same,components_SOCDKPU,target_recurrence,analyst,calculate,calculated_before_confirmation,19
+E1,F2,same,components_SOCDKPU,tool_error,analyst,allocate,amount not offered by local service,2
+E1,F2,same,components_SOCDKPU,tool_error,analyst,calculate,'value',2
+E1,F2,same,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,22
+E1,F2,same,components_SOCDKPU,tool_error,provider,confirm,publish first,1
+E1,F2,same,components_SP,target_recurrence,analyst,calculate,calculated_before_confirmation,24
+E1,F2,same,components_SP,tool_error,analyst,allocate,'amount',1
+E1,F2,same,components_SP,tool_error,analyst,allocate,amount not offered by local service,9
+E1,F2,same,components_SP,tool_error,analyst,verify,unknown evidence source,3
+E1,F2,same,components_SP,tool_error,executor,commit,publish and calculate before committing,1
+E1,F2,same,components_SP,tool_error,provider,allocate,'amount',1
+E1,F2,same,components_SP,tool_error,provider,allocate,amount not offered by local service,4
+E1,F2,transfer,components_SOCDKPU,target_recurrence,analyst,calculate,calculated_before_confirmation,14
+E1,F2,transfer,components_SOCDKPU,tool_error,analyst,allocate,amount not offered by local service,6
+E1,F2,transfer,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,26
+E1,F2,transfer,components_SP,target_recurrence,analyst,calculate,calculated_before_confirmation,33
+E1,F2,transfer,components_SP,tool_error,analyst,allocate,amount not offered by local service,7
+E1,F3,reversal,components_SOCDKPU,tool_error,analyst,allocate,amount not offered by local service,2
+E1,F3,reversal,components_SOCDKPU,tool_error,analyst,calculate,publish an artifact first,2
+E1,F3,reversal,components_SOCDKPU,tool_error,provider,allocate,'amount',2
+E1,F3,reversal,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,21
+E1,F3,reversal,components_SOCDKPU,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,9
+E1,F3,reversal,components_SP,tool_error,analyst,allocate,'amount',6
+E1,F3,reversal,components_SP,tool_error,analyst,allocate,amount not offered by local service,15
+E1,F3,reversal,components_SP,tool_error,analyst,calculate,publish an artifact first,1
+E1,F3,reversal,components_SP,tool_error,executor,commit,publish and calculate before committing,3
+E1,F3,reversal,components_SP,tool_error,provider,allocate,'amount',2
+E1,F3,reversal,components_SP,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,8
+E1,F3,same,components_SOCDKPU,target_recurrence,analyst,calculate,calculated_stale_version,28
+E1,F3,same,components_SOCDKPU,tool_error,analyst,allocate,'amount',1
+E1,F3,same,components_SOCDKPU,tool_error,analyst,allocate,amount not offered by local service,3
+E1,F3,same,components_SOCDKPU,tool_error,analyst,calculate,publish an artifact first,3
+E1,F3,same,components_SOCDKPU,tool_error,provider,allocate,'amount',3
+E1,F3,same,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,20
+E1,F3,same,components_SOCDKPU,tool_error,provider,confirm,publish first,4
+E1,F3,same,components_SP,target_recurrence,analyst,calculate,calculated_stale_version,28
+E1,F3,same,components_SP,target_recurrence,executor,commit,F3_failed_at_commit,3
+E1,F3,same,components_SP,tool_error,analyst,allocate,'amount',6
+E1,F3,same,components_SP,tool_error,analyst,allocate,amount not offered by local service,19
+E1,F3,same,components_SP,tool_error,executor,commit,publish and calculate before committing,2
+E1,F3,same,components_SP,tool_error,provider,allocate,'amount',3
+E1,F3,transfer,components_SOCDKPU,target_recurrence,analyst,calculate,calculated_stale_version,32
+E1,F3,transfer,components_SOCDKPU,tool_error,analyst,calculate,'value',1
+E1,F3,transfer,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,33
+E1,F3,transfer,components_SP,target_recurrence,analyst,calculate,calculated_stale_version,35
+E1,F3,transfer,components_SP,target_recurrence,executor,commit,F3_failed_at_commit,1
+E1,F3,transfer,components_SP,tool_error,analyst,allocate,amount not offered by local service,13
+E1,F4,reversal,components_SOCDKPU,tool_error,analyst,allocate,amount not offered by local service,6
+E1,F4,reversal,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,19
+E1,F4,reversal,components_SOCDKPU,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,3
+E1,F4,reversal,components_SP,tool_error,analyst,allocate,amount not offered by local service,15
+E1,F4,reversal,components_SP,tool_error,analyst,calculate,'value',1
+E1,F4,reversal,components_SP,tool_error,executor,commit,publish and calculate before committing,2
+E1,F4,reversal,components_SP,tool_error,provider,allocate,'amount',3
+E1,F4,reversal,components_SP,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,9
+E1,F4,same,components_SOCDKPU,target_recurrence,executor,commit,F4_failed_at_commit,19
+E1,F4,same,components_SOCDKPU,target_recurrence,provider,allocate,joint_conflict_formed,2
+E1,F4,same,components_SOCDKPU,tool_error,analyst,allocate,amount not offered by local service,7
+E1,F4,same,components_SOCDKPU,tool_error,analyst,calculate,'value',2
+E1,F4,same,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,19
+E1,F4,same,components_SP,target_recurrence,analyst,allocate,joint_conflict_formed,3
+E1,F4,same,components_SP,target_recurrence,executor,commit,F4_failed_at_commit,12
+E1,F4,same,components_SP,target_recurrence,provider,allocate,joint_conflict_formed,11
+E1,F4,same,components_SP,tool_error,analyst,allocate,amount not offered by local service,20
+E1,F4,same,components_SP,tool_error,analyst,calculate,'value',1
+E1,F4,same,components_SP,tool_error,provider,allocate,'amount',3
+E1,F4,transfer,components_SOCDKPU,target_recurrence,analyst,allocate,joint_conflict_formed,3
+E1,F4,transfer,components_SOCDKPU,target_recurrence,executor,commit,F4_failed_at_commit,20
+E1,F4,transfer,components_SOCDKPU,target_recurrence,provider,allocate,joint_conflict_formed,3
+E1,F4,transfer,components_SOCDKPU,tool_error,analyst,allocate,amount not offered by local service,3
+E1,F4,transfer,components_SOCDKPU,tool_error,analyst,calculate,'value',6
+E1,F4,transfer,components_SOCDKPU,tool_error,provider,allocate,amount not offered by local service,20
+E1,F4,transfer,components_SP,target_recurrence,analyst,allocate,joint_conflict_formed,24
+E1,F4,transfer,components_SP,target_recurrence,executor,commit,F4_failed_at_commit,6
+E1,F4,transfer,components_SP,tool_error,analyst,allocate,amount not offered by local service,6
+E3,F1,reversal,cycle,tool_error,analyst,allocate,amount not offered by local service,12
+E3,F1,reversal,cycle,tool_error,provider,allocate,'amount',3
+E3,F1,reversal,cycle,tool_error,provider,allocate,amount not offered by local service,7
+E3,F1,reversal,cycle,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,14
+E3,F1,reversal,matched,tool_error,analyst,allocate,amount not offered by local service,6
+E3,F1,reversal,matched,tool_error,analyst,calculate,publish an artifact first,2
+E3,F1,reversal,matched,tool_error,provider,allocate,'amount',3
+E3,F1,reversal,matched,tool_error,provider,allocate,amount not offered by local service,13
+E3,F1,reversal,matched,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,12
+E3,F1,reversal,random,tool_error,analyst,allocate,'amount',1
+E3,F1,reversal,random,tool_error,analyst,allocate,amount not offered by local service,6
+E3,F1,reversal,random,tool_error,analyst,calculate,'value',1
+E3,F1,reversal,random,tool_error,analyst,calculate,publish an artifact first,1
+E3,F1,reversal,random,tool_error,executor,commit,publish and calculate before committing,1
+E3,F1,reversal,random,tool_error,provider,allocate,'amount',2
+E3,F1,reversal,random,tool_error,provider,allocate,amount not offered by local service,7
+E3,F1,reversal,random,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,16
+E3,F1,same,cycle,target_recurrence,analyst,calculate,incorrect_transformation_detected_at_grading,26
+E3,F1,same,cycle,tool_error,analyst,allocate,amount not offered by local service,17
+E3,F1,same,cycle,tool_error,analyst,calculate,'value',1
+E3,F1,same,cycle,tool_error,provider,allocate,'amount',3
+E3,F1,same,cycle,tool_error,provider,allocate,amount not offered by local service,8
+E3,F1,same,cycle,tool_error,provider,confirm,publish first,1
+E3,F1,same,matched,target_recurrence,analyst,calculate,incorrect_transformation_detected_at_grading,27
+E3,F1,same,matched,tool_error,analyst,allocate,amount not offered by local service,9
+E3,F1,same,matched,tool_error,analyst,calculate,publish an artifact first,1
+E3,F1,same,matched,tool_error,provider,allocate,'amount',3
+E3,F1,same,matched,tool_error,provider,allocate,amount not offered by local service,21
+E3,F1,same,random,target_recurrence,analyst,calculate,incorrect_transformation_detected_at_grading,29
+E3,F1,same,random,tool_error,analyst,allocate,'amount',1
+E3,F1,same,random,tool_error,analyst,allocate,amount not offered by local service,6
+E3,F1,same,random,tool_error,analyst,calculate,'value',1
+E3,F1,same,random,tool_error,analyst,calculate,publish an artifact first,1
+E3,F1,same,random,tool_error,executor,commit,publish and calculate before committing,1
+E3,F1,same,random,tool_error,provider,allocate,'amount',2
+E3,F1,same,random,tool_error,provider,allocate,amount not offered by local service,9
+E3,F1,same,random,tool_error,provider,confirm,publish first,1
+E3,F1,transfer,cycle,target_recurrence,analyst,calculate,incorrect_transformation_detected_at_grading,36
+E3,F1,transfer,cycle,tool_error,analyst,allocate,amount not offered by local service,6
+E3,F1,transfer,matched,target_recurrence,analyst,calculate,incorrect_transformation_detected_at_grading,32
+E3,F1,transfer,matched,tool_error,analyst,allocate,amount not offered by local service,14
+E3,F1,transfer,matched,tool_error,provider,allocate,amount not offered by local service,14
+E3,F1,transfer,random,target_recurrence,analyst,calculate,incorrect_transformation_detected_at_grading,34
+E3,F1,transfer,random,tool_error,analyst,allocate,amount not offered by local service,8
+E3,F1,transfer,random,tool_error,provider,allocate,amount not offered by local service,6
+E3,F2,reversal,cycle,tool_error,analyst,allocate,amount not offered by local service,10
+E3,F2,reversal,cycle,tool_error,analyst,calculate,'value',1
+E3,F2,reversal,cycle,tool_error,analyst,calculate,publish an artifact first,2
+E3,F2,reversal,cycle,tool_error,executor,commit,publish and calculate before committing,1
+E3,F2,reversal,cycle,tool_error,provider,allocate,'amount',3
+E3,F2,reversal,cycle,tool_error,provider,allocate,amount not offered by local service,3
+E3,F2,reversal,cycle,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,12
+E3,F2,reversal,matched,tool_error,analyst,allocate,'amount',2
+E3,F2,reversal,matched,tool_error,analyst,allocate,amount not offered by local service,9
+E3,F2,reversal,matched,tool_error,analyst,calculate,'value',3
+E3,F2,reversal,matched,tool_error,provider,allocate,'amount',1
+E3,F2,reversal,matched,tool_error,provider,allocate,amount not offered by local service,8
+E3,F2,reversal,matched,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,10
+E3,F2,reversal,random,tool_error,analyst,allocate,'amount',2
+E3,F2,reversal,random,tool_error,analyst,allocate,amount not offered by local service,8
+E3,F2,reversal,random,tool_error,analyst,calculate,'value',3
+E3,F2,reversal,random,tool_error,executor,commit,publish and calculate before committing,1
+E3,F2,reversal,random,tool_error,provider,allocate,'amount',2
+E3,F2,reversal,random,tool_error,provider,allocate,amount not offered by local service,4
+E3,F2,reversal,random,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,12
+E3,F2,same,cycle,target_recurrence,analyst,calculate,calculated_before_confirmation,23
+E3,F2,same,cycle,tool_error,analyst,allocate,amount not offered by local service,11
+E3,F2,same,cycle,tool_error,analyst,calculate,'value',1
+E3,F2,same,cycle,tool_error,analyst,calculate,publish an artifact first,1
+E3,F2,same,cycle,tool_error,executor,commit,publish and calculate before committing,1
+E3,F2,same,cycle,tool_error,provider,allocate,'amount',4
+E3,F2,same,cycle,tool_error,provider,allocate,amount not offered by local service,3
+E3,F2,same,cycle,tool_error,provider,confirm,publish first,1
+E3,F2,same,matched,target_recurrence,analyst,calculate,calculated_before_confirmation,19
+E3,F2,same,matched,tool_error,analyst,allocate,'amount',2
+E3,F2,same,matched,tool_error,analyst,allocate,amount not offered by local service,13
+E3,F2,same,matched,tool_error,analyst,calculate,'value',3
+E3,F2,same,matched,tool_error,provider,allocate,'amount',2
+E3,F2,same,matched,tool_error,provider,allocate,amount not offered by local service,13
+E3,F2,same,random,target_recurrence,analyst,calculate,calculated_before_confirmation,19
+E3,F2,same,random,tool_error,analyst,allocate,'amount',2
+E3,F2,same,random,tool_error,analyst,allocate,amount not offered by local service,10
+E3,F2,same,random,tool_error,analyst,calculate,'value',2
+E3,F2,same,random,tool_error,executor,commit,publish and calculate before committing,1
+E3,F2,same,random,tool_error,provider,allocate,'amount',3
+E3,F2,same,random,tool_error,provider,allocate,amount not offered by local service,5
+E3,F2,same,random,tool_error,provider,confirm,publish first,2
+E3,F2,transfer,cycle,target_recurrence,analyst,calculate,calculated_before_confirmation,33
+E3,F2,transfer,cycle,tool_error,analyst,allocate,amount not offered by local service,2
+E3,F2,transfer,matched,target_recurrence,analyst,calculate,calculated_before_confirmation,27
+E3,F2,transfer,matched,tool_error,analyst,allocate,amount not offered by local service,3
+E3,F2,transfer,matched,tool_error,provider,allocate,amount not offered by local service,15
+E3,F2,transfer,random,target_recurrence,analyst,calculate,calculated_before_confirmation,30
+E3,F2,transfer,random,tool_error,analyst,allocate,amount not offered by local service,12
+E3,F2,transfer,random,tool_error,provider,allocate,amount not offered by local service,5
+E3,F3,reversal,cycle,tool_error,analyst,allocate,amount not offered by local service,4
+E3,F3,reversal,cycle,tool_error,analyst,calculate,publish an artifact first,2
+E3,F3,reversal,cycle,tool_error,executor,commit,publish and calculate before committing,6
+E3,F3,reversal,cycle,tool_error,provider,allocate,'amount',1
+E3,F3,reversal,cycle,tool_error,provider,allocate,amount not offered by local service,1
+E3,F3,reversal,cycle,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,22
+E3,F3,reversal,matched,tool_error,analyst,allocate,amount not offered by local service,9
+E3,F3,reversal,matched,tool_error,analyst,calculate,'value',4
+E3,F3,reversal,matched,tool_error,provider,allocate,amount not offered by local service,9
+E3,F3,reversal,matched,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,14
+E3,F3,reversal,random,tool_error,analyst,allocate,amount not offered by local service,12
+E3,F3,reversal,random,tool_error,analyst,calculate,'value',4
+E3,F3,reversal,random,tool_error,executor,commit,publish and calculate before committing,1
+E3,F3,reversal,random,tool_error,provider,allocate,amount not offered by local service,3
+E3,F3,reversal,random,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,15
+E3,F3,same,cycle,target_recurrence,analyst,calculate,calculated_stale_version,22
+E3,F3,same,cycle,target_recurrence,executor,commit,F3_failed_at_commit,7
+E3,F3,same,cycle,tool_error,analyst,allocate,amount not offered by local service,17
+E3,F3,same,cycle,tool_error,analyst,calculate,publish an artifact first,1
+E3,F3,same,cycle,tool_error,executor,commit,publish and calculate before committing,6
+E3,F3,same,cycle,tool_error,provider,allocate,'amount',3
+E3,F3,same,cycle,tool_error,provider,allocate,amount not offered by local service,1
+E3,F3,same,cycle,tool_error,provider,confirm,publish first,1
+E3,F3,same,matched,target_recurrence,analyst,calculate,calculated_stale_version,20
+E3,F3,same,matched,target_recurrence,executor,commit,F3_failed_at_commit,6
+E3,F3,same,matched,tool_error,analyst,allocate,amount not offered by local service,14
+E3,F3,same,matched,tool_error,analyst,calculate,'value',6
+E3,F3,same,matched,tool_error,provider,allocate,amount not offered by local service,10
+E3,F3,same,matched,tool_error,provider,confirm,publish first,1
+E3,F3,same,random,target_recurrence,analyst,calculate,calculated_stale_version,17
+E3,F3,same,random,target_recurrence,executor,commit,F3_failed_at_commit,9
+E3,F3,same,random,tool_error,analyst,allocate,amount not offered by local service,16
+E3,F3,same,random,tool_error,analyst,calculate,'value',5
+E3,F3,same,random,tool_error,executor,commit,publish and calculate before committing,1
+E3,F3,same,random,tool_error,provider,allocate,'amount',1
+E3,F3,same,random,tool_error,provider,allocate,amount not offered by local service,3
+E3,F3,same,random,tool_error,provider,confirm,publish first,3
+E3,F3,transfer,cycle,target_recurrence,analyst,calculate,calculated_stale_version,33
+E3,F3,transfer,cycle,target_recurrence,executor,commit,F3_failed_at_commit,3
+E3,F3,transfer,cycle,tool_error,analyst,allocate,amount not offered by local service,9
+E3,F3,transfer,matched,target_recurrence,analyst,calculate,calculated_stale_version,24
+E3,F3,transfer,matched,target_recurrence,executor,commit,F3_failed_at_commit,4
+E3,F3,transfer,matched,tool_error,analyst,allocate,amount not offered by local service,8
+E3,F3,transfer,matched,tool_error,analyst,calculate,'value',3
+E3,F3,transfer,matched,tool_error,provider,allocate,amount not offered by local service,15
+E3,F3,transfer,random,target_recurrence,analyst,calculate,calculated_stale_version,26
+E3,F3,transfer,random,target_recurrence,executor,commit,F3_failed_at_commit,7
+E3,F3,transfer,random,tool_error,analyst,allocate,amount not offered by local service,13
+E3,F3,transfer,random,tool_error,analyst,calculate,'value',2
+E3,F3,transfer,random,tool_error,provider,allocate,amount not offered by local service,5
+E3,F4,reversal,cycle,tool_error,analyst,allocate,amount not offered by local service,2
+E3,F4,reversal,cycle,tool_error,analyst,calculate,publish an artifact first,2
+E3,F4,reversal,cycle,tool_error,executor,commit,publish and calculate before committing,2
+E3,F4,reversal,cycle,tool_error,provider,allocate,'amount',1
+E3,F4,reversal,cycle,tool_error,provider,allocate,amount not offered by local service,6
+E3,F4,reversal,cycle,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,15
+E3,F4,reversal,matched,tool_error,analyst,calculate,'value',2
+E3,F4,reversal,matched,tool_error,analyst,calculate,publish an artifact first,2
+E3,F4,reversal,matched,tool_error,provider,allocate,amount not offered by local service,21
+E3,F4,reversal,matched,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,5
+E3,F4,reversal,random,tool_error,analyst,allocate,amount not offered by local service,5
+E3,F4,reversal,random,tool_error,analyst,calculate,'value',1
+E3,F4,reversal,random,tool_error,analyst,calculate,publish an artifact first,1
+E3,F4,reversal,random,tool_error,executor,commit,publish and calculate before committing,1
+E3,F4,reversal,random,tool_error,provider,allocate,amount not offered by local service,8
+E3,F4,reversal,random,tool_error,provider,confirm,synchronous v2 contract forbids obsolete receipt polling,12
+E3,F4,same,cycle,target_recurrence,analyst,allocate,joint_conflict_formed,5
+E3,F4,same,cycle,target_recurrence,executor,commit,F4_failed_at_commit,6
+E3,F4,same,cycle,target_recurrence,provider,allocate,joint_conflict_formed,4
+E3,F4,same,cycle,tool_error,analyst,allocate,amount not offered by local service,8
+E3,F4,same,cycle,tool_error,analyst,calculate,publish an artifact first,3
+E3,F4,same,cycle,tool_error,executor,commit,publish and calculate before committing,2
+E3,F4,same,cycle,tool_error,provider,allocate,'amount',2
+E3,F4,same,cycle,tool_error,provider,allocate,amount not offered by local service,5
+E3,F4,same,cycle,tool_error,provider,publish,'values',3
+E3,F4,same,matched,target_recurrence,analyst,allocate,joint_conflict_formed,3
+E3,F4,same,matched,target_recurrence,executor,commit,F4_failed_at_commit,13
+E3,F4,same,matched,target_recurrence,provider,allocate,joint_conflict_formed,2
+E3,F4,same,matched,tool_error,analyst,allocate,amount not offered by local service,3
+E3,F4,same,matched,tool_error,analyst,calculate,'value',1
+E3,F4,same,matched,tool_error,analyst,calculate,publish an artifact first,2
+E3,F4,same,matched,tool_error,provider,allocate,amount not offered by local service,21
+E3,F4,same,random,target_recurrence,analyst,allocate,joint_conflict_formed,11
+E3,F4,same,random,target_recurrence,executor,commit,F4_failed_at_commit,7
+E3,F4,same,random,target_recurrence,provider,allocate,joint_conflict_formed,3
+E3,F4,same,random,tool_error,analyst,allocate,amount not offered by local service,4
+E3,F4,same,random,tool_error,analyst,calculate,'value',1
+E3,F4,same,random,tool_error,executor,commit,publish and calculate before committing,1
+E3,F4,same,random,tool_error,provider,allocate,amount not offered by local service,9
+E3,F4,same,random,tool_error,provider,confirm,publish first,2
+E3,F4,transfer,cycle,target_recurrence,analyst,allocate,joint_conflict_formed,25
+E3,F4,transfer,cycle,target_recurrence,executor,commit,F4_failed_at_commit,3
+E3,F4,transfer,cycle,tool_error,analyst,allocate,amount not offered by local service,4
+E3,F4,transfer,matched,target_recurrence,executor,commit,F4_failed_at_commit,20
+E3,F4,transfer,matched,tool_error,analyst,allocate,amount not offered by local service,7
+E3,F4,transfer,matched,tool_error,analyst,calculate,'value',3
+E3,F4,transfer,matched,tool_error,provider,allocate,amount not offered by local service,20
+E3,F4,transfer,random,target_recurrence,analyst,allocate,joint_conflict_formed,15
+E3,F4,transfer,random,target_recurrence,executor,commit,F4_failed_at_commit,12
+E3,F4,transfer,random,tool_error,analyst,allocate,amount not offered by local service,8
+E3,F4,transfer,random,tool_error,analyst,calculate,'value',2
+E3,F4,transfer,random,tool_error,provider,allocate,amount not offered by local service,6

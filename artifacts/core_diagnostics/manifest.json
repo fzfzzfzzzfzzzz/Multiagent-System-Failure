@@ -1,0 +1,10 @@
+{
+  "exploratory": true,
+  "rows": 2025,
+  "missing_episodes": [],
+  "experiments": [
+    "E1",
+    "E3"
+  ],
+  "warning": "diagnostic output cannot revise the preregistered H1/H4 result"
+}

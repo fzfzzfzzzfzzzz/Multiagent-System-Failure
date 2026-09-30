@@ -1,0 +1,63 @@
+{
+  "completed_at": 1790705092.8070178,
+  "unit": "teamlearn-corediag-260930-v1",
+  "unit_exit_code": 0,
+  "preflight": {
+    "completion": {
+      "complete": true,
+      "design_hash": "c2c74a2472241648f3000bf5422dfb16536feebefefe106d9db3addbad22ae7a",
+      "E1_rows": 810,
+      "E3_rows": 1215,
+      "interpretation_required": true
+    },
+    "recovery_complete": true
+  },
+  "gpu_before": [
+    {
+      "gpu": 4,
+      "used_mb": 10,
+      "util": 0
+    },
+    {
+      "gpu": 5,
+      "used_mb": 10,
+      "util": 0
+    },
+    {
+      "gpu": 6,
+      "used_mb": 11,
+      "util": 0
+    },
+    {
+      "gpu": 7,
+      "used_mb": 10,
+      "util": 0
+    }
+  ],
+  "gpu_after": [
+    {
+      "gpu": 4,
+      "used_mb": 10,
+      "util": 0
+    },
+    {
+      "gpu": 5,
+      "used_mb": 10,
+      "util": 0
+    },
+    {
+      "gpu": 6,
+      "used_mb": 11,
+      "util": 0
+    },
+    {
+      "gpu": 7,
+      "used_mb": 10,
+      "util": 0
+    }
+  ],
+  "remote_out": "/data/fangc/teamlearn/runs/core8b_20260928_v2/diagnostics_20260930_v1",
+  "local_out": "artifacts\\core_diagnostics",
+  "stdout_tail": [],
+  "stderr_tail": []
+}

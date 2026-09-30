@@ -1,0 +1,44 @@
+{
+  "rows": 192,
+  "unique_run_ids": 192,
+  "episodes": 192,
+  "methods": [
+    "model_auto",
+    "model_reviewed_route",
+    "reviewed_auto",
+    "reviewed_reviewed_route"
+  ],
+  "kinds": [
+    "same",
+    "transfer"
+  ],
+  "seeds": [
+    101
+  ],
+  "sources": 24,
+  "mechanism_counts": {
+    "F1": 48,
+    "F2": 48,
+    "F3": 48,
+    "F4": 48
+  },
+  "paired_units": 48,
+  "incomplete_paired_units": 0,
+  "mock_rows": 0,
+  "models": [
+    "Qwen3-8B"
+  ],
+  "delivery_failures": [],
+  "content_mismatches": [],
+  "routing_mismatches": [],
+  "design_hash_matches": true,
+  "target_outcomes_used_for_design": false,
+  "summary_complete": true,
+  "supervisor_state": "completed",
+  "gpu_released": true,
+  "owned_gpu_pids_remaining": [],
+  "results_sha256": "38fa565962cc9fd83b2f1f8f4b48de5f355fd941260229a5b6e358c4c5b9d44d",
+  "systemd": "MainPID=0\nResult=success\nActiveState=inactive\nSubState=dead\n",
+  "passed": true,
+  "problems": []
+}

@@ -180,6 +180,12 @@ def build_deliveries(experience,arm,models,public_task,seed=0,memory=None,policy
     elif method=="coordinator":recipients=["coordinator"]
     elif method in ("mechanism","learned"):recipients=experience["related_roles"] or ["coordinator"]
     elif method=="subset":recipients=arm["recipients"]
+    # Diagnostic experiments may hold report content fixed while assigning a
+    # pre-registered recipient set.  This override is recorded in the audit.
+    if "recipients" in arm:
+        recipients=list(arm["recipients"])
+        if not recipients or any(role not in ROLES for role in recipients):
+            raise ValueError("recipients must be a non-empty list of semantic roles")
     if method=="learned":
         if policy is None:raise ValueError("learned reporting requires a frozen trained policy")
         recipients=policy.select(experience,arm.get("budget",2048))
@@ -234,6 +240,7 @@ def build_deliveries(experience,arm,models,public_task,seed=0,memory=None,policy
     else:
         allowance=budget if mode=="per_agent" else budget//max(1,len(recipients))
         by_role={r:fit_atoms(a,models[r],allowance,style) for r,a in by_role.items()}
+    before_ids={r:[a["atom_id"] for a in items] for r,items in by_role.items()}
     reports={r:render(a,style) for r,a in by_role.items()}
     mapping=list(ROLES)
     if arm.get("permutation")=="cycle":mapping=list(ROLES[1:])+[ROLES[0]]
@@ -243,10 +250,14 @@ def build_deliveries(experience,arm,models,public_task,seed=0,memory=None,policy
     if arm.get("permutation"):
         if mode!="content_set":raise ValueError("permutation requires content_set matching")
         reports={dst:reports[src] for src,dst in zip(ROLES,mapping)}
+    delivered_ids={r:list(before_ids[r]) for r in ROLES}
+    if arm.get("permutation"):
+        delivered_ids={dst:list(before_ids[src]) for src,dst in zip(ROLES,mapping)}
     tokens={r:models[r].tokens(text) for r,text in reports.items()}
     if mode in ("team_total","content_set") and sum(tokens.values())>budget:raise ValueError("report token budget exceeded")
     audit={"report_tokens":sum(tokens.values()),"tokens_by_role":tokens,"budget_mode":mode,"budget":budget,
            "budget_scope":"initial delivered context; repeated prefills separately metered in API usage",
-           "atomic_ids":{r:[a["atom_id"] for a in items] for r,items in by_role.items()},"permutation":dict(zip(ROLES,mapping)),
+           "atomic_ids":delivered_ids,"atomic_ids_before_routing":before_ids,"atomic_ids_delivered":delivered_ids,
+           "permutation":dict(zip(ROLES,mapping)),"recipients":recipients,
            "components":components,"method":method,"frozen_hash":experience["frozen_hash"],"report_multiset_hash":digest(sorted(reports.values()))}
     return reports,audit

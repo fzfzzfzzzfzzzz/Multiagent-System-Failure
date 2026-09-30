@@ -37,6 +37,7 @@ def run_team(task_path, models, reports=None, seed=0, rounds=2, turns_per_role=7
     own = {r:[] for r in ROLES}
     transcripts = []
     deliveries = []
+    delivery_by_role = {}
     fetches = []
     report_read_tokens=0
     first_views = {}
@@ -44,8 +45,10 @@ def run_team(task_path, models, reports=None, seed=0, rounds=2, turns_per_role=7
         for role in ROLES:
             first_views[role] = env.request("view",role=role)
             if reports.get(role):
-                deliveries.append({"role":role,"agent_id":first_views[role]["agent_id"],"state":"activated","at":"before_task",
-                                   "report_hash":digest(reports[role]),"tokens":models[role].tokens(reports[role])})
+                delivery={"role":role,"agent_id":first_views[role]["agent_id"],"state":"delivered","at":"before_task",
+                          "report_hash":digest(reports[role]),"tokens":models[role].tokens(reports[role]),
+                          "entered_model_request_at":None}
+                deliveries.append(delivery);delivery_by_role[role]=delivery
         for round_index in range(rounds):
             topology=first_views["coordinator"]["task"].get("topology")
             order=ROLES if topology!="parallel_join" else ("provider","analyst","coordinator","executor")
@@ -67,6 +70,8 @@ def run_team(task_path, models, reports=None, seed=0, rounds=2, turns_per_role=7
                     current={"role":role,"round":round_index,"turn":turn,"calls_remaining_this_turn":turns_per_role-turn,"inbox":view["inbox"],"request":"Choose your next concrete action using the observations above."}
                     if models[role].name=="mock-NOT-RESEARCH":current["own_events"]=own[role]
                     messages.append({"role":"user","content":canonical(current)})
+                    if role in delivery_by_role and delivery_by_role[role]["entered_model_request_at"] is None:
+                        delivery_by_role[role]["entered_model_request_at"]={"round":round_index,"turn":turn}
                     before_call=len(models[role].ledger)
                     text=models[role].complete(messages,seed+round_index*1000+ROLES.index(role)*100+turn,schema=schema)
                     for call in models[role].ledger[before_call:]:call.update({"role":role,"round":round_index,"turn":turn})
